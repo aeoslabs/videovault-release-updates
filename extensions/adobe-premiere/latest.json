@@ -1,0 +1,15 @@
+{
+  "id": "com.aeos.videovault.premiere",
+  "name": "VideoVault Premiere Extension",
+  "latestVersion": "1.2.2",
+  "releaseNotes": "- Updated Premiere extension package for the current desktop release\n- Improved bridge and install compatibility on macOS\n- Prepared manifest-driven extension updates through VideoVault Connect",
+  "mandatory": false,
+  "platforms": {
+    "darwin": {
+      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.2.2/VideoVault_PremierPro_mac.pkg",
+      "checksumSha256": "2175a1297831ac011c00684aceafe76753153deb1515c8c670e7253d7902c2c2",
+      "packageType": "pkg",
+      "size": 152249
+    }
+  }
+}
