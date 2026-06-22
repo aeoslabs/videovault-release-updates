@@ -1,15 +1,15 @@
 {
   "id": "com.aeos.videovault.premiere",
   "name": "VideoVault Premiere Extension",
-  "latestVersion": "1.3.0",
-  "releaseNotes": "- Updated extension release for the 1.1.0 desktop rollout\n- Continued hidden bridge/activity integration support\n- Refreshed macOS and Windows installer metadata for manifest-driven updates",
+  "latestVersion": "1.4.0",
+  "releaseNotes": "- Cut a fresh extension minor release for the new branch-based Windows and macOS publishing flow.\n- Added versioned markdown release notes for extension releases.\n- Preserved the current background bridge and panel-closed activity capture path.\n- Bumped the extension bundle version to `1.4.0`.\n- Kept the background extension entry active so telemetry can continue even when the visible panel is not open.\n- Continued packaging the standard Windows zip and macOS pkg outputs expected by the desktop updater.\n- Added the `1.4.0` release note file as the source of truth for this extension release.\n- The extension release workflows now use this markdown file for both the GitHub Release body and updater-facing release notes.",
   "mandatory": false,
   "platforms": {
     "darwin": {
-      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.3.0/VideoVault_Premier_Pro_mac_1.3.0.pkg",
-      "checksumSha256": "88e7e43a97ad606219dd287c2fafb31cd668fd8bdd914c1b04ef9f48c9d8ff0e",
+      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.4.0/VideoVault_Premier_Pro_mac_1.4.0.pkg",
+      "checksumSha256": "41491dacf61551bcaa59ccb921cfa4d42a1b441c6689bb6b2c40010bfd0e8f8d",
       "packageType": "pkg",
-      "size": 43344
+      "size": 49037
     },
     "win32": {
       "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.3.0/VideoVault_Premiere_Pro_Windows_1.3.0.zip",
