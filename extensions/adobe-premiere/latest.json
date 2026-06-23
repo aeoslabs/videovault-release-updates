@@ -1,15 +1,15 @@
 {
   "id": "com.aeos.videovault.premiere",
   "name": "VideoVault Premiere Extension",
-  "latestVersion": "1.4.0",
-  "releaseNotes": "- Cut a fresh extension minor release for the new branch-based Windows and macOS publishing flow.\n- Added versioned markdown release notes for extension releases.\n- Preserved the current background bridge and panel-closed activity capture path.\n- Bumped the extension bundle version to `1.4.0`.\n- Kept the background extension entry active so telemetry can continue even when the visible panel is not open.\n- Continued packaging the standard Windows zip and macOS pkg outputs expected by the desktop updater.\n- Added the `1.4.0` release note file as the source of truth for this extension release.\n- The extension release workflows now use this markdown file for both the GitHub Release body and updater-facing release notes.",
+  "latestVersion": "1.4.1",
+  "releaseNotes": "- Cut a patch release for the Premiere extension to clean up version presentation and packaged metadata.\n- Kept the current background telemetry and panel-closed capture path intact.\n- Focused this release on low-risk polish so desktop-driven installs stay consistent.\n- Bumped the extension bundle version to `1.4.1`.\n- Updated the visible panel version flow so the UI can reflect the manifest-backed extension version.\n- Kept the standard Windows zip and macOS pkg outputs expected by the desktop updater.\n- Added the `1.4.1` release note file as the source of truth for this extension release.\n- The extension release workflows continue to use this markdown file for both the GitHub Release body and updater-facing release notes.\n- This note was refreshed to trigger a fresh release commit without changing the shipped version.",
   "mandatory": false,
   "platforms": {
     "darwin": {
-      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.4.0/VideoVault_Premier_Pro_mac_1.4.0.pkg",
-      "checksumSha256": "41491dacf61551bcaa59ccb921cfa4d42a1b441c6689bb6b2c40010bfd0e8f8d",
+      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.4.1/VideoVault_Premier_Pro_mac_1.4.1.pkg",
+      "checksumSha256": "7310a990efa89976e3e70a8482df331729dd9a7e50b13e3bf2334425e933f54e",
       "packageType": "pkg",
-      "size": 49037
+      "size": 49144
     },
     "win32": {
       "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.4.0/VideoVault_Premiere_Pro_Windows_1.4.0.zip",
