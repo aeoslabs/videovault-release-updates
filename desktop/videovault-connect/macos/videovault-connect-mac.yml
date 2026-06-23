@@ -1,11 +1,11 @@
-version: 1.2.0
+version: 1.2.1
 files:
-  - url: https://github.com/aeoslabs/videovault-release-updates/releases/download/videovault-connect-v1.2.0/VideoVault-Connect-1.2.0-universal.zip
-    sha512: p2kMExgqgE5eeOSGk/xSUd1NuzVG9/AVJCI6ZtEpIbA8LXkpSg4uQEskX1VuoB87vfzt5CjDEq+1Sl8anIHjGA==
-    size: 259177823
-  - url: https://github.com/aeoslabs/videovault-release-updates/releases/download/videovault-connect-v1.2.0/VideoVault-Connect-1.2.0-universal.dmg
-    sha512: TS9khngRfIp+n2oUURq/SVwBfEyhxjIFiZe3UxzM01IPbW0PHzALoV/Nm9G36iLNDwepYJxC9iiOWpNraTAeXw==
-    size: 268241569
-path: https://github.com/aeoslabs/videovault-release-updates/releases/download/videovault-connect-v1.2.0/VideoVault-Connect-1.2.0-universal.zip
-sha512: p2kMExgqgE5eeOSGk/xSUd1NuzVG9/AVJCI6ZtEpIbA8LXkpSg4uQEskX1VuoB87vfzt5CjDEq+1Sl8anIHjGA==
-releaseDate: '2026-06-22T10:06:48.893Z'
+  - url: https://github.com/aeoslabs/videovault-release-updates/releases/download/videovault-connect-v1.2.1/VideoVault-Connect-1.2.1-universal.zip
+    sha512: R58mgAwERhO6ic/G+S33QtrB7SW0dUZ63DlzX+maASr48nnoLEss2uFra1h/EBVL60RFBwVQDAhw/5djgqUBKQ==
+    size: 259177669
+  - url: https://github.com/aeoslabs/videovault-release-updates/releases/download/videovault-connect-v1.2.1/VideoVault-Connect-1.2.1-universal.dmg
+    sha512: ooqgYrWt9tCodfwAcSn/yMFsebUIOnLn2ExK3D5VRN9iON1HiwN2fL1/w66NojPoI5jorKGQrJ3oZbtDz7QsPw==
+    size: 268259844
+path: https://github.com/aeoslabs/videovault-release-updates/releases/download/videovault-connect-v1.2.1/VideoVault-Connect-1.2.1-universal.zip
+sha512: R58mgAwERhO6ic/G+S33QtrB7SW0dUZ63DlzX+maASr48nnoLEss2uFra1h/EBVL60RFBwVQDAhw/5djgqUBKQ==
+releaseDate: '2026-06-23T14:03:41.404Z'
