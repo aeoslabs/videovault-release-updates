@@ -1,15 +1,15 @@
 {
   "id": "com.aeos.videovault.premiere",
   "name": "VideoVault Premiere Extension",
-  "latestVersion": "1.4.1",
-  "releaseNotes": "- Cut a patch release for the Premiere extension to clean up version presentation and packaged metadata.\n- Kept the current background telemetry and panel-closed capture path intact.\n- Focused this release on low-risk polish so desktop-driven installs stay consistent.\n- Bumped the extension bundle version to `1.4.1`.\n- Updated the visible panel version flow so the UI can reflect the manifest-backed extension version.\n- Kept the standard Windows zip and macOS pkg outputs expected by the desktop updater.\n- Added the `1.4.1` release note file as the source of truth for this extension release.\n- The extension release workflows continue to use this markdown file for both the GitHub Release body and updater-facing release notes.\n- This note was refreshed to trigger a fresh release commit without changing the shipped version.",
+  "latestVersion": "1.5.0",
+  "releaseNotes": "- **State 1 (Welcome / First Launch)**: Focuses strictly on cache location setup using a card selector.\n- **State 2 (Ready to Cache)**: Project connection cards listing estimated proxy size and free disk space.\n- **State 3 (Caching Progress)**: Circular progress indicator updating live percentages and estimated time remaining.\n- **State 4 (Ready / Local Active)**: Success illustration banner confirming local proxy usage.\n- **State 5 (Manage Cache Settings)**: A dedicated card overlay listing local storage metrics, logs access, and cache purges.\n- **States 6–10 (Integrity / Warning Cards)**: Custom overlays for missing files, project switches, offline servers, out-of-sync indicators, and write errors.\n- **Modern Typography**: Imported and implemented Google Fonts **Inter** (`Inter, -apple-system, BlinkMacSystemFont, \"Segoe UI\"`) to replace generic browser fallbacks.\n- **Vector Iconography (No Emojis)**: Removed all emojis from buttons, header bars, and status labels, replacing them with custom vector inline SVG paths.\n- **Cohesive Theme System**: Unified color properties using CSS custom variables to support both **Dark Mode** (default) and **Light Mode** transitions.\n- **UI Components**: Formatted custom location selectors (with chevrons), stats dividers, rounded primary CTA buttons, and glowing indicator dots.\n- **Suppressed Alerts**: Replaced blocking browser alerts on Node.js `require` failures (when previewing the UI inside standard web browsers) with console log warnings. This enables smooth external browser previews without affecting CEF plugin functionality.\n- **Simulated Testing**: Preserved event mappings and DOM identifiers (`btn_select_drive`, `btn_sync`, `selected_path`) to ensure 100% backward compatibility with core ExtendScript and WebSocket daemons.\n- **macOS installer package**: `VideoVault_Premier_Pro_mac_1.5.0.pkg`\n- **Windows zip package**: `VideoVault_Premiere_Pro_Windows_1.5.0.zip`",
   "mandatory": false,
   "platforms": {
     "darwin": {
-      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.4.1/VideoVault_Premier_Pro_mac_1.4.1.pkg",
-      "checksumSha256": "7310a990efa89976e3e70a8482df331729dd9a7e50b13e3bf2334425e933f54e",
+      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.5.0/VideoVault_Premier_Pro_mac_1.5.0.pkg",
+      "checksumSha256": "874c6de70a4aca6f2ffd72fac0e4d3137cc3a2e14dd483908ac8ea889160cde8",
       "packageType": "pkg",
-      "size": 49144
+      "size": 55120
     },
     "win32": {
       "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.4.0/VideoVault_Premiere_Pro_Windows_1.4.0.zip",
