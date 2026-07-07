@@ -1,15 +1,15 @@
 {
   "id": "com.aeos.videovault.premiere",
   "name": "VideoVault Premiere Extension",
-  "latestVersion": "1.5.6",
-  "releaseNotes": "- **Editor-Centric Control Panel**: Transformed the success screen into an active workspace dashboard showing the current project name and server connection indicators.\n- **Direct Proxy Toggle**: Placed the primary **NAS / LOCAL** toggle switch directly on the main workspace view, allowing editors to swap proxy sources in one click without leaving their primary view. Toggles are dynamically synchronized.\n- **Contextual subheadings**: Added an onboarding description to clarify the utility of caching local proxies over Tailscale/network connections.\n- **Disabled Caching on Network Outages**: If the NAS connection check returns `Disconnected`, the primary \"Cache Proxies\" button is automatically disabled and replaced with a connection alert message.\n- **macOS installer package**: `VideoVault_Premier_Pro_mac_1.5.6.pkg`\n- **Windows zip package**: `VideoVault_Premiere_Pro_Windows_1.5.6.zip`",
+  "latestVersion": "1.5.7",
+  "releaseNotes": "- **Vector Logo Integration**: Replaced the generic Adobe CEP grid icon in the top header with the official VideoVault `logo.svg` vector asset.\n- **Consistent Terminology**: Replaced all mentions of \"NAS\" on the user interface (badges, alerts, settings switches, and details tables) with **\"VideoVault Server\"** or **\"Server\"** to improve editor clarity.\n- **Hidden Auto-Link Checkbox**: Removed the \"Auto-Link Proxies\" checkbox from the visual interface to reduce clutter. Under the hood, this parameter is set to **`true`** by default and remains fully functional in the DOM to prevent script errors.\n- **Centered Option Panel**: The proxy toggle is now cleanly centered inside the settings row.\n- **Refined Dimensions**: Shrunk the height and width of the toggle switch (width: `30px`, height: `14px`) and the circular handle knob (`8px`) for a more sleek, premium feel.\n- **Cache settings & details Button**: Restored the `.btn-secondary-action` CSS class to the State 4 settings transition button to resolve missing layout styles.\n- **macOS installer package**: `VideoVault_Premier_Pro_mac_1.5.7.pkg`\n- **Windows zip package**: `VideoVault_Premiere_Pro_Windows_1.5.7.zip`",
   "mandatory": false,
   "platforms": {
     "darwin": {
-      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.5.6/VideoVault_Premier_Pro_mac_1.5.6.pkg",
-      "checksumSha256": "11a9abd7b838c05225c15d5cb2542cf6f88e889348499c2e2fa8860e05775b0e",
+      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.5.7/VideoVault_Premier_Pro_mac_1.5.7.pkg",
+      "checksumSha256": "7ac39bcea22b2b17be592bc6a8aaafb7d8fada402ccf0836bac75a6d83becd2f",
       "packageType": "pkg",
-      "size": 58192
+      "size": 58177
     },
     "win32": {
       "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.5.6/VideoVault_Premiere_Pro_Windows_1.5.6.zip",
