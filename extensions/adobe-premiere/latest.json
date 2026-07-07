@@ -1,15 +1,15 @@
 {
   "id": "com.aeos.videovault.premiere",
   "name": "VideoVault Premiere Extension",
-  "latestVersion": "1.5.3",
-  "releaseNotes": "- **Restored error log containers**: Re-inserted the original `<div id=\"log_output\">` element to index.html to guarantee all critical errors print correctly to the debug consoles inside Premiere.\n- **ExtendScript JSX Integrity**: Retained 100% of the original JSX host commands (`getProjectPath()`, `getHighResClips()`, `attachProxies()`, `revertProxiesToNas()`) to ensure no broken API bindings.\n- **Zero-Clip Safeguards**: The caching progress page (State 3) will only load if the project scanner confirms there is at least **1 active clip** that needs to be cached.\n- **Graceful Exit**: If there are no clips in the project to cache, the app remains on State 2 (Ready to Cache) instead of transitioning to progress/success states with placeholder strings.\n- **Free Disk Space (Dynamic)**: Implemented a node child-process routine executing `df` (macOS) and `wmic` (Windows) to calculate real remaining capacity on the selected local cache directory.\n- **Estimated Proxy Size (Dynamic)**: Scans active project clips to fetch filesizes directly from the network volume, summing up the real-world footprint of proxies that need syncing.\n- **NAS Connection Indicator (Dynamic)**: Automatically tests read connectivity to files on the shared NAS volume, dynamically displaying a green checkmark **Connected** badge or an orange alert **Disconnected** badge.\n- **macOS installer package**: `VideoVault_Premier_Pro_mac_1.5.3.pkg`\n- **Windows zip package**: `VideoVault_Premiere_Pro_Windows_1.5.3.zip`",
+  "latestVersion": "1.5.4",
+  "releaseNotes": "- **Resolved classList TypeError**: Re-inserted the original `<div id=\"progress-container\">` element inside the hidden inputs section of State 3. In previous versions, the absence of this element caused the sync process to crash with `Cannot read properties of null (reading 'classList')` upon project scan completion inside Premiere.\n- **ExtendScript JSX Integrity**: Retained 100% of the original JSX host commands (`getProjectPath()`, `getHighResClips()`, `attachProxies()`, `revertProxiesToNas()`) to ensure no broken API bindings.\n- **Error logs**: Restored log output container `log_output` to capture and display errors correctly.\n- **Free Disk Space (Dynamic)**: Implemented a node child-process routine executing `df` (macOS) and `wmic` (Windows) to calculate real remaining capacity on the selected local cache directory.\n- **Estimated Proxy Size (Dynamic)**: Scans active project clips to fetch filesizes directly from the network volume, summing up the real-world footprint of proxies that need syncing.\n- **NAS Connection Indicator (Dynamic)**: Automatically tests read connectivity to files on the shared NAS volume, dynamically displaying a green checkmark **Connected** badge or an orange alert **Disconnected** badge.\n- **macOS installer package**: `VideoVault_Premier_Pro_mac_1.5.4.pkg`\n- **Windows zip package**: `VideoVault_Premiere_Pro_Windows_1.5.4.zip`",
   "mandatory": false,
   "platforms": {
     "darwin": {
-      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.5.3/VideoVault_Premier_Pro_mac_1.5.3.pkg",
-      "checksumSha256": "8908b78b6f9896e95a2785d58fd0982fafa469bfa87814109f27a4845d816d09",
+      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.5.4/VideoVault_Premier_Pro_mac_1.5.4.pkg",
+      "checksumSha256": "28f64083b575fba943f048a25919641376a6b64820b7fdd1b2962bdc63890202",
       "packageType": "pkg",
-      "size": 56974
+      "size": 56984
     },
     "win32": {
       "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.5.3/VideoVault_Premiere_Pro_Windows_1.5.3.zip",
