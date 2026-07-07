@@ -1,15 +1,15 @@
 {
   "id": "com.aeos.videovault.premiere",
   "name": "VideoVault Premiere Extension",
-  "latestVersion": "1.5.4",
-  "releaseNotes": "- **Resolved classList TypeError**: Re-inserted the original `<div id=\"progress-container\">` element inside the hidden inputs section of State 3. In previous versions, the absence of this element caused the sync process to crash with `Cannot read properties of null (reading 'classList')` upon project scan completion inside Premiere.\n- **ExtendScript JSX Integrity**: Retained 100% of the original JSX host commands (`getProjectPath()`, `getHighResClips()`, `attachProxies()`, `revertProxiesToNas()`) to ensure no broken API bindings.\n- **Error logs**: Restored log output container `log_output` to capture and display errors correctly.\n- **Free Disk Space (Dynamic)**: Implemented a node child-process routine executing `df` (macOS) and `wmic` (Windows) to calculate real remaining capacity on the selected local cache directory.\n- **Estimated Proxy Size (Dynamic)**: Scans active project clips to fetch filesizes directly from the network volume, summing up the real-world footprint of proxies that need syncing.\n- **NAS Connection Indicator (Dynamic)**: Automatically tests read connectivity to files on the shared NAS volume, dynamically displaying a green checkmark **Connected** badge or an orange alert **Disconnected** badge.\n- **macOS installer package**: `VideoVault_Premier_Pro_mac_1.5.4.pkg`\n- **Windows zip package**: `VideoVault_Premiere_Pro_Windows_1.5.4.zip`",
+  "latestVersion": "1.5.6",
+  "releaseNotes": "- **Editor-Centric Control Panel**: Transformed the success screen into an active workspace dashboard showing the current project name and server connection indicators.\n- **Direct Proxy Toggle**: Placed the primary **NAS / LOCAL** toggle switch directly on the main workspace view, allowing editors to swap proxy sources in one click without leaving their primary view. Toggles are dynamically synchronized.\n- **Contextual subheadings**: Added an onboarding description to clarify the utility of caching local proxies over Tailscale/network connections.\n- **Disabled Caching on Network Outages**: If the NAS connection check returns `Disconnected`, the primary \"Cache Proxies\" button is automatically disabled and replaced with a connection alert message.\n- **macOS installer package**: `VideoVault_Premier_Pro_mac_1.5.6.pkg`\n- **Windows zip package**: `VideoVault_Premiere_Pro_Windows_1.5.6.zip`",
   "mandatory": false,
   "platforms": {
     "darwin": {
-      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.5.4/VideoVault_Premier_Pro_mac_1.5.4.pkg",
-      "checksumSha256": "28f64083b575fba943f048a25919641376a6b64820b7fdd1b2962bdc63890202",
+      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.5.6/VideoVault_Premier_Pro_mac_1.5.6.pkg",
+      "checksumSha256": "2c871cce72c9cee8b3af8698fe5b4e1fd0975b2413dafaef913f5909ebcabb65",
       "packageType": "pkg",
-      "size": 56984
+      "size": 58192
     },
     "win32": {
       "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.5.4/VideoVault_Premiere_Pro_Windows_1.5.4.zip",
