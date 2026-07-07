@@ -7,9 +7,9 @@
   "platforms": {
     "darwin": {
       "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.5.6/VideoVault_Premier_Pro_mac_1.5.6.pkg",
-      "checksumSha256": "2c871cce72c9cee8b3af8698fe5b4e1fd0975b2413dafaef913f5909ebcabb65",
+      "checksumSha256": "ff7db6ba8a78323adc907697e699e43857d3e28da576042954b260f8937cced3",
       "packageType": "pkg",
-      "size": 58192
+      "size": 58189
     },
     "win32": {
       "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.5.6/VideoVault_Premiere_Pro_Windows_1.5.6.zip",
