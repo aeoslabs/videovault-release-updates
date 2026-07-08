@@ -1,15 +1,15 @@
 {
   "id": "com.aeos.videovault.premiere",
   "name": "VideoVault Premiere Extension",
-  "latestVersion": "1.5.9",
-  "releaseNotes": "- **Moved Logos to client/**: Moved the official `logo.svg` and `logo.png` image assets directly into the `client/` folder. This ensures they are successfully included inside the distribution packages and installer payloads.\n- **Resolved Relative Links**: Updated the HTML source file pathways to query `logo.svg` directly from the base directory context, resolving broken image pathways.\n- **Replaced Grid SVG**: Swapped the generic layout grid SVG icon at the center of the welcome/first-run setup tab with the official VideoVault vector logo.\n- **macOS installer package**: `VideoVault_Premier_Pro_mac_1.5.9.pkg`\n- **Windows zip package**: `VideoVault_Premiere_Pro_Windows_1.5.9.zip`",
+  "latestVersion": "1.6.0",
+  "releaseNotes": "- **Removed Unwanted Actions**: Cleaned the panel's native top-right hamburger menu to hide the helper options (Verify Cache, Forget Cache Path, Clear Cache), leaving only the requested action links.\n- **Integrated Items**:\n- **Open Logs** (Triggers logs directory opening)\n- **Explore Extension Folder** (Triggers explore action on the CEP extension bundle path)\n- **macOS installer package**: `VideoVault_Premier_Pro_mac_1.6.0.pkg`\n- **Windows zip package**: `VideoVault_Premiere_Pro_Windows_1.6.0.zip`",
   "mandatory": false,
   "platforms": {
     "darwin": {
-      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.5.9/VideoVault_Premier_Pro_mac_1.5.9.pkg",
-      "checksumSha256": "99ed11405fea25f75c03faef44d601d5ebc30973d63fb45c5ae9622edc93761d",
+      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.6.0/VideoVault_Premier_Pro_mac_1.6.0.pkg",
+      "checksumSha256": "0d00cdaea71b1de6a6281d5006036b067120c87c7540b44eaf6a1474def9c4c2",
       "packageType": "pkg",
-      "size": 265893
+      "size": 265787
     },
     "win32": {
       "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.5.9/VideoVault_Premiere_Pro_Windows_1.5.9.zip",
