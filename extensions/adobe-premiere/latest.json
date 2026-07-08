@@ -1,15 +1,15 @@
 {
   "id": "com.aeos.videovault.premiere",
   "name": "VideoVault Premiere Extension",
-  "latestVersion": "1.5.7",
-  "releaseNotes": "- **Vector Logo Integration**: Replaced the generic Adobe CEP grid icon in the top header with the official VideoVault `logo.svg` vector asset.\n- **Consistent Terminology**: Replaced all mentions of \"NAS\" on the user interface (badges, alerts, settings switches, and details tables) with **\"VideoVault Server\"** or **\"Server\"** to improve editor clarity.\n- **Hidden Auto-Link Checkbox**: Removed the \"Auto-Link Proxies\" checkbox from the visual interface to reduce clutter. Under the hood, this parameter is set to **`true`** by default and remains fully functional in the DOM to prevent script errors.\n- **Centered Option Panel**: The proxy toggle is now cleanly centered inside the settings row.\n- **Refined Dimensions**: Shrunk the height and width of the toggle switch (width: `30px`, height: `14px`) and the circular handle knob (`8px`) for a more sleek, premium feel.\n- **Cache settings & details Button**: Restored the `.btn-secondary-action` CSS class to the State 4 settings transition button to resolve missing layout styles.\n- **macOS installer package**: `VideoVault_Premier_Pro_mac_1.5.7.pkg`\n- **Windows zip package**: `VideoVault_Premiere_Pro_Windows_1.5.7.zip`",
+  "latestVersion": "1.5.8",
+  "releaseNotes": "- **Context-Menu Integration**: Programmed the panel's native top-right hamburger menu to expose a custom dropdown flyout menu containing:\n- **Verify Cache** (Runs detailed scans for local/server proxy attachments)\n- **Open Logs** (Opens debug logs folder)\n- **Explore Folder** (Opens local cache assets folder)\n- **Forget Cache Path** (Forgets selected local cache root)\n- **Clear Local Cache** (Triggers cache deletion flow)\n- **Reuse Click Handlers**: Bound events dynamically to invoke original click actions on their corresponding DOM elements, preventing logic duplication.\n- **macOS installer package**: `VideoVault_Premier_Pro_mac_1.5.8.pkg`\n- **Windows zip package**: `VideoVault_Premiere_Pro_Windows_1.5.8.zip`",
   "mandatory": false,
   "platforms": {
     "darwin": {
-      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.5.7/VideoVault_Premier_Pro_mac_1.5.7.pkg",
-      "checksumSha256": "7ac39bcea22b2b17be592bc6a8aaafb7d8fada402ccf0836bac75a6d83becd2f",
+      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.5.8/VideoVault_Premier_Pro_mac_1.5.8.pkg",
+      "checksumSha256": "beb00c041b9837cc03539783883cc41895529ba5c405312ffd45e557aa9b3e38",
       "packageType": "pkg",
-      "size": 58177
+      "size": 58574
     },
     "win32": {
       "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.5.7/VideoVault_Premiere_Pro_Windows_1.5.7.zip",
