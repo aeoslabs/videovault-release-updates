@@ -1,15 +1,15 @@
 {
   "id": "com.aeos.videovault.premiere",
   "name": "VideoVault Premiere Extension",
-  "latestVersion": "1.5.8",
-  "releaseNotes": "- **Context-Menu Integration**: Programmed the panel's native top-right hamburger menu to expose a custom dropdown flyout menu containing:\n- **Verify Cache** (Runs detailed scans for local/server proxy attachments)\n- **Open Logs** (Opens debug logs folder)\n- **Explore Folder** (Opens local cache assets folder)\n- **Forget Cache Path** (Forgets selected local cache root)\n- **Clear Local Cache** (Triggers cache deletion flow)\n- **Reuse Click Handlers**: Bound events dynamically to invoke original click actions on their corresponding DOM elements, preventing logic duplication.\n- **macOS installer package**: `VideoVault_Premier_Pro_mac_1.5.8.pkg`\n- **Windows zip package**: `VideoVault_Premiere_Pro_Windows_1.5.8.zip`",
+  "latestVersion": "1.5.9",
+  "releaseNotes": "- **Moved Logos to client/**: Moved the official `logo.svg` and `logo.png` image assets directly into the `client/` folder. This ensures they are successfully included inside the distribution packages and installer payloads.\n- **Resolved Relative Links**: Updated the HTML source file pathways to query `logo.svg` directly from the base directory context, resolving broken image pathways.\n- **Replaced Grid SVG**: Swapped the generic layout grid SVG icon at the center of the welcome/first-run setup tab with the official VideoVault vector logo.\n- **macOS installer package**: `VideoVault_Premier_Pro_mac_1.5.9.pkg`\n- **Windows zip package**: `VideoVault_Premiere_Pro_Windows_1.5.9.zip`",
   "mandatory": false,
   "platforms": {
     "darwin": {
-      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.5.8/VideoVault_Premier_Pro_mac_1.5.8.pkg",
-      "checksumSha256": "beb00c041b9837cc03539783883cc41895529ba5c405312ffd45e557aa9b3e38",
+      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.5.9/VideoVault_Premier_Pro_mac_1.5.9.pkg",
+      "checksumSha256": "99ed11405fea25f75c03faef44d601d5ebc30973d63fb45c5ae9622edc93761d",
       "packageType": "pkg",
-      "size": 58574
+      "size": 265893
     },
     "win32": {
       "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.5.8/VideoVault_Premiere_Pro_Windows_1.5.8.zip",
