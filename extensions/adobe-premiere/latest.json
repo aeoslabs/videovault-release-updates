@@ -1,15 +1,15 @@
 {
   "id": "com.aeos.videovault.premiere",
   "name": "VideoVault Premiere Extension",
-  "latestVersion": "1.6.1",
-  "releaseNotes": "- **Context-Menu Integration**: Programmed the panel's native top-right hamburger menu to expose a custom dropdown flyout menu containing only:\n- **Open Logs** (Opens debug logs folder)\n- **Explore Extension Folder** (Opens local installation folder on disk)\n- **Vector Logo Integration**: Replaced the generic Adobe CEP grid icon in the top header and welcome screen with the official VideoVault `logo.svg` vector asset.\n- **Bundle-Safe Asset Pathways**: Moved logos to the local `client/` folder to ensure inclusion in release installer packages.\n- **Consistent Terminology**: Replaced all mentions of \"NAS\" on the user interface (connection badges, primary workspace toggle labels, offline/out-of-sync alert cards, and verification tables) with **\"VideoVault Server\"** or **\"Server\"**.\n- **Hidden Auto-Link Checkbox**: Removed the \"Auto-Link Proxies\" checkbox from the visual interface to reduce clutter. Under the hood, this parameter is set to **`true`** by default and remains fully functional in the DOM to prevent script errors.\n- **Refined Toggle Dimensions**: Shrunk the height and width of the toggle switch (width: `30px`, height: `14px`) and the circular handle knob (`8px`) for a more sleek, premium feel.\n- **CTA Button CSS**: Restored the `.btn-secondary-action` CSS class to the State 4 settings transition button to resolve missing layout styles.\n- **macOS installer package**: `VideoVault_Premier_Pro_mac_1.6.1.pkg`\n- **Windows zip package**: `VideoVault_Premiere_Pro_Windows_1.6.1.zip`",
+  "latestVersion": "1.6.2",
+  "releaseNotes": "- **Resolved Flyout Prototype Crash**: Added missing `setPanelFlyoutMenu` and `addEventListener` API methods to the minimal mock `CSInterface.js` class. This resolves a runtime JavaScript type error (`TypeError: csInterface.setPanelFlyoutMenu is not a function`) that halted the load sequence, preventing the flyout menu and layout updates from rendering.\n- **CEP Flyout Integration**: Programmed the panel's native top-right hamburger menu to expose a custom dropdown flyout menu containing only:\n- **Open Logs** (Opens debug logs folder)\n- **Explore Extension Folder** (Opens local installation folder on disk)\n- **Signature Purple Logo Integration**: Replaced the generic Adobe CEP grid icon in the top header and welcome screen with the official VideoVault signature purple `logo.png` asset.\n- **Bundle-Safe Asset Pathways**: Moved logos to the local `client/` folder to ensure inclusion in release installer packages.\n- **Consistent Terminology**: Replaced all mentions of \"NAS\" on the user interface with **\"VideoVault Server\"** or **\"Server\"**.\n- **Hidden Auto-Link Checkbox**: Removed the \"Auto-Link Proxies\" checkbox from the visual interface to reduce clutter, keeping it enabled under the hood.\n- **Refined Toggle Dimensions**: Shrunk the height and width of the toggle switch (width: `30px`, height: `14px`) and the circular handle knob (`8px`) for a more sleek, premium feel.\n- **macOS installer package**: `VideoVault_Premier_Pro_mac_1.6.2.pkg`\n- **Windows zip package**: `VideoVault_Premiere_Pro_Windows_1.6.2.zip`",
   "mandatory": false,
   "platforms": {
     "darwin": {
-      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.6.1/VideoVault_Premier_Pro_mac_1.6.1.pkg",
-      "checksumSha256": "a3dc6889df8a8e19e185559481c2a7b9ad2ada71ad633f0b995b655666cb6f17",
+      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.6.2/VideoVault_Premier_Pro_mac_1.6.2.pkg",
+      "checksumSha256": "a26ad8f9a956f48e95ea792eabddcec4856db48fd7e574e9549d645d0aacc89f",
       "packageType": "pkg",
-      "size": 265796
+      "size": 265863
     },
     "win32": {
       "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.6.1/VideoVault_Premiere_Pro_Windows_1.6.1.zip",
