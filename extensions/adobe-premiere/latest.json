@@ -1,15 +1,15 @@
 {
   "id": "com.aeos.videovault.premiere",
   "name": "VideoVault Premiere Extension",
-  "latestVersion": "1.7.0",
-  "releaseNotes": "- New dark editorial shell for the Premiere extension.\n- Clearer `Overview`, `Proxy Manager`, and `Comments` navigation.\n- Proxy verification now surfaces missing-server, NAS, and local-cache counts more clearly.\n- Comments now have an in-extension scaffold so the next implementation can connect real data without another UI rewrite.\n- Redesigned the panel shell to feel closer to modern creative extensions rather than a utility dialog.\n- Added a top-level hero/status area that explains the current workflow focus.\n- Added a primary navigation layer for:\n- `Overview`\n- `Proxy Manager`\n- `Comments`\n- Kept the existing proxy/cache state machine intact while presenting it in a cleaner, more production-ready layout.\n- Surfaced proxy verification outcomes in a new summary strip:\n- clips missing proxies on the server\n- clips available on VideoVault Server\n- clips already in the local cache\n- Preserved the existing `PROXY_NEEDED` bridge path so missing-proxy detection can still escalate to VideoVault Connect.\n- Added an in-extension comments scaffold page to prepare for the upcoming read-only comments feature and later reply/resolve flows.\n- Extension version bumped to `1.7.0`.\n- Update `extensions/adobe-premiere/latest.json` in `videovault-release-updates` after packaging the new macOS and Windows installers.\n- Release tag should follow:\n- `premiere-extension-v1.7.0`",
+  "latestVersion": "1.7.1",
+  "releaseNotes": "- Sharper, tighter extension spacing inspired by modern creative tools.\n- One-click CTA for missing proxy creation after `Verify Cache`.\n- Theme tokens centralized so future shell themes are easier to support.\n- Ready-state proxy source toggle now hides when a project has zero proxy-relevant clips.\n- Refined the simplified `Home`, `Proxies`, and `Comments` shell with denser spacing and smaller radii.\n- Added an explicit missing-proxy callout:\n- shows how many files still need proxies on VideoVault Server\n- lets the editor request creation with one click\n- Kept the existing `PROXY_NEEDED` bridge path intact:\n- Premiere extension detects missing proxies\n- VideoVault Connect requests a Central grant\n- the NAS enqueues real proxy jobs\n- Centralized shell and legacy visual tokens so theme changes do not require scattered hardcoded color edits.\n- Hid the active proxy source toggle when there are `0` proxy-relevant clips, so the UI does not show a meaningless switch.\n- Extension version bumped to `1.7.1`.\n- Update `extensions/adobe-premiere/latest.json` in `videovault-release-updates` after packaging the new macOS and Windows installers.\n- Release tag should follow:\n- `premiere-extension-v1.7.1`",
   "mandatory": false,
   "platforms": {
     "darwin": {
-      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.7.0/VideoVault_Premier_Pro_mac_1.7.0.pkg",
-      "checksumSha256": "2c2997810d9bd6c75cff48fab12a94c7b8eb7bef0add7b64261809980f4493a5",
+      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.7.1/VideoVault_Premier_Pro_mac_1.7.1.pkg",
+      "checksumSha256": "998bc4439775c179389df35f46e217eaea1c6a8db0c0e83d24d0c8b9512d6be2",
       "packageType": "pkg",
-      "size": 270907
+      "size": 270916
     },
     "win32": {
       "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.7.0/VideoVault_Premiere_Pro_Windows_1.7.0.zip",
