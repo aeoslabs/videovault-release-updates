@@ -1,15 +1,15 @@
 {
   "id": "com.aeos.videovault.premiere",
   "name": "VideoVault Premiere Extension",
-  "latestVersion": "1.6.2",
-  "releaseNotes": "- **Resolved Flyout Prototype Crash**: Added missing `setPanelFlyoutMenu` and `addEventListener` API methods to the minimal mock `CSInterface.js` class. This resolves a runtime JavaScript type error (`TypeError: csInterface.setPanelFlyoutMenu is not a function`) that halted the load sequence, preventing the flyout menu and layout updates from rendering.\n- **CEP Flyout Integration**: Programmed the panel's native top-right hamburger menu to expose a custom dropdown flyout menu containing only:\n- **Open Logs** (Opens debug logs folder)\n- **Explore Extension Folder** (Opens local installation folder on disk)\n- **Signature Purple Logo Integration**: Replaced the generic Adobe CEP grid icon in the top header and welcome screen with the official VideoVault signature purple `logo.png` asset.\n- **Bundle-Safe Asset Pathways**: Moved logos to the local `client/` folder to ensure inclusion in release installer packages.\n- **Consistent Terminology**: Replaced all mentions of \"NAS\" on the user interface with **\"VideoVault Server\"** or **\"Server\"**.\n- **Hidden Auto-Link Checkbox**: Removed the \"Auto-Link Proxies\" checkbox from the visual interface to reduce clutter, keeping it enabled under the hood.\n- **Refined Toggle Dimensions**: Shrunk the height and width of the toggle switch (width: `30px`, height: `14px`) and the circular handle knob (`8px`) for a more sleek, premium feel.\n- **macOS installer package**: `VideoVault_Premier_Pro_mac_1.6.2.pkg`\n- **Windows zip package**: `VideoVault_Premiere_Pro_Windows_1.6.2.zip`",
+  "latestVersion": "1.7.0",
+  "releaseNotes": "- New dark editorial shell for the Premiere extension.\n- Clearer `Overview`, `Proxy Manager`, and `Comments` navigation.\n- Proxy verification now surfaces missing-server, NAS, and local-cache counts more clearly.\n- Comments now have an in-extension scaffold so the next implementation can connect real data without another UI rewrite.\n- Redesigned the panel shell to feel closer to modern creative extensions rather than a utility dialog.\n- Added a top-level hero/status area that explains the current workflow focus.\n- Added a primary navigation layer for:\n- `Overview`\n- `Proxy Manager`\n- `Comments`\n- Kept the existing proxy/cache state machine intact while presenting it in a cleaner, more production-ready layout.\n- Surfaced proxy verification outcomes in a new summary strip:\n- clips missing proxies on the server\n- clips available on VideoVault Server\n- clips already in the local cache\n- Preserved the existing `PROXY_NEEDED` bridge path so missing-proxy detection can still escalate to VideoVault Connect.\n- Added an in-extension comments scaffold page to prepare for the upcoming read-only comments feature and later reply/resolve flows.\n- Extension version bumped to `1.7.0`.\n- Update `extensions/adobe-premiere/latest.json` in `videovault-release-updates` after packaging the new macOS and Windows installers.\n- Release tag should follow:\n- `premiere-extension-v1.7.0`",
   "mandatory": false,
   "platforms": {
     "darwin": {
-      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.6.2/VideoVault_Premier_Pro_mac_1.6.2.pkg",
-      "checksumSha256": "a26ad8f9a956f48e95ea792eabddcec4856db48fd7e574e9549d645d0aacc89f",
+      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.7.0/VideoVault_Premier_Pro_mac_1.7.0.pkg",
+      "checksumSha256": "e31a88c64c8eb43d808e3fd68c74e5bcda596e65f80b90d8e50401ce06d67430",
       "packageType": "pkg",
-      "size": 265863
+      "size": 269144
     },
     "win32": {
       "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.6.2/VideoVault_Premiere_Pro_Windows_1.6.2.zip",
