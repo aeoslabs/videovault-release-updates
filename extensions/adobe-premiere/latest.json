@@ -13,9 +13,9 @@
     },
     "win32": {
       "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.7.0/VideoVault_Premiere_Pro_Windows_1.7.0.zip",
-      "checksumSha256": "d60e0b852cb49a0a16a8d76c89ba670862c16d916328ce42e556649ff2935d78",
+      "checksumSha256": "e1a9f30c853d639ae761d2ebca588b2f3320734238765f19a1359bfba315fc6c",
       "packageType": "zip",
-      "size": 273253,
+      "size": 274830,
       "extensionFolderName": "videovault-premiere-extension"
     }
   }
