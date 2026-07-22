@@ -12,10 +12,10 @@
       "size": 270916
     },
     "win32": {
-      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.7.0/VideoVault_Premiere_Pro_Windows_1.7.0.zip",
-      "checksumSha256": "e1a9f30c853d639ae761d2ebca588b2f3320734238765f19a1359bfba315fc6c",
+      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.7.1/VideoVault_Premiere_Pro_Windows_1.7.1.zip",
+      "checksumSha256": "e24e4c07e70c9421ee61581797c8c5f76305537c22dceaea0f874294a1340c96",
       "packageType": "zip",
-      "size": 274830,
+      "size": 274832,
       "extensionFolderName": "videovault-premiere-extension"
     }
   }
