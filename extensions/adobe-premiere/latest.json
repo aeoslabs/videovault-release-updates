@@ -1,15 +1,15 @@
 {
   "id": "com.aeos.videovault.premiere",
   "name": "VideoVault Premiere Extension",
-  "latestVersion": "1.7.1",
-  "releaseNotes": "- Sharper, tighter extension spacing inspired by modern creative tools.\n- One-click CTA for missing proxy creation after `Verify Cache`.\n- Theme tokens centralized so future shell themes are easier to support.\n- Ready-state proxy source toggle now hides when a project has zero proxy-relevant clips.\n- Refined the simplified `Home`, `Proxies`, and `Comments` shell with denser spacing and smaller radii.\n- Added an explicit missing-proxy callout:\n- shows how many files still need proxies on VideoVault Server\n- lets the editor request creation with one click\n- Kept the existing `PROXY_NEEDED` bridge path intact:\n- Premiere extension detects missing proxies\n- VideoVault Connect requests a Central grant\n- the NAS enqueues real proxy jobs\n- Centralized shell and legacy visual tokens so theme changes do not require scattered hardcoded color edits.\n- Hid the active proxy source toggle when there are `0` proxy-relevant clips, so the UI does not show a meaningless switch.\n- Extension version bumped to `1.7.1`.\n- Update `extensions/adobe-premiere/latest.json` in `videovault-release-updates` after packaging the new macOS and Windows installers.\n- Release tag should follow:\n- `premiere-extension-v1.7.1`",
+  "latestVersion": "1.7.2",
+  "releaseNotes": "- Compressed the header and first-screen layout further.\n- Removed the theme switcher and kept the shipped experience dark-only.\n- Improved typography with a stronger display/body font pairing.\n- Kept the one-click missing-proxy flow and proxy state logic intact.\n- Refined the top header into a simpler structure:\n- logo on the left\n- primary mode tabs in the header\n- compact icon menu button on the right\n- Removed the extra title strip below the header so content starts sooner.\n- Tightened paddings, margins, card radii, and control heights across the opening states.\n- Swapped emoji-style controls out of the panel chrome and kept the header iconography SVG-based.\n- Kept the extension on the dark theme only for now.\n- Extension version bumped to `1.7.2`.\n- Update `extensions/adobe-premiere/latest.json` in `videovault-release-updates` after packaging the new macOS and Windows installers.\n- Release tag should follow:\n- `premiere-extension-v1.7.2`",
   "mandatory": false,
   "platforms": {
     "darwin": {
-      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.7.1/VideoVault_Premier_Pro_mac_1.7.1.pkg",
-      "checksumSha256": "8c63ce39d8eb1faa4232b50a9609fa7ff725ea1b17cc75963d363d69d8e700e7",
+      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.7.2/VideoVault_Premier_Pro_mac_1.7.2.pkg",
+      "checksumSha256": "2bcad1160b63d5578fcf4893f81d508c32beda3aa1e6a860aecedb78eb93da1e",
       "packageType": "pkg",
-      "size": 270237
+      "size": 270238
     },
     "win32": {
       "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.7.1/VideoVault_Premiere_Pro_Windows_1.7.1.zip",
