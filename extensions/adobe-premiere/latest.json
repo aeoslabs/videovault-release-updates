@@ -1,15 +1,15 @@
 {
   "id": "com.aeos.videovault.premiere",
   "name": "VideoVault Premiere Extension",
-  "latestVersion": "1.7.2",
-  "releaseNotes": "- Compressed the header and first-screen layout further.\n- Removed the theme switcher and kept the shipped experience dark-only.\n- Improved typography with a stronger display/body font pairing.\n- Kept the one-click missing-proxy flow and proxy state logic intact.\n- Refined the top header into a simpler structure:\n- logo on the left\n- primary mode tabs in the header\n- compact icon menu button on the right\n- Removed the extra title strip below the header so content starts sooner.\n- Tightened paddings, margins, card radii, and control heights across the opening states.\n- Swapped emoji-style controls out of the panel chrome and kept the header iconography SVG-based.\n- Kept the extension on the dark theme only for now.\n- Extension version bumped to `1.7.2`.\n- Update `extensions/adobe-premiere/latest.json` in `videovault-release-updates` after packaging the new macOS and Windows installers.\n- Release tag should follow:\n- `premiere-extension-v1.7.2`",
+  "latestVersion": "1.8.0",
+  "releaseNotes": "- Reworked the opening panel flow into a more project-first layout.\n- Added a compact in-panel action menu instead of scattering utility buttons in the main surface.\n- Replaced native CEP/browser confirmation prompts with in-panel confirmation and notice modals for normal product flows.\n- Prepared the extension shell for desktop-driven feature gating, including workspace-aware comments visibility.\n- Refined the `Home` ready state around the active project card:\n- project name and connection state first\n- direct `Open proxies` action\n- sentence-style proxy availability summary instead of boxed counters\n- inline proxy creation CTA when files can be created\n- Moved `Open Logs`, `Explore Folder`, and `Forget Path` into the compact header menu.\n- Replaced product-facing native dialogs with in-panel modals for:\n- forgetting the cache path\n- clearing the local cache\n- missing cache-location / no-local-proxy / safety-stop notices\n- Added workspace-aware comments gating support in the extension shell so the `Comments` tab can be hidden when the desktop bridge marks it unavailable.\n- Extension version bumped to `1.8.0`.\n- Update `extensions/adobe-premiere/latest.json` in `videovault-release-updates` after packaging the new macOS and Windows installers.\n- Release tag should follow:\n- `premiere-extension-v1.8.0`",
   "mandatory": false,
   "platforms": {
     "darwin": {
-      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.7.2/VideoVault_Premier_Pro_mac_1.7.2.pkg",
-      "checksumSha256": "868e147b9927ff68d372c792bc37f2a42b1dc7d50f074c7bf0c016baa6178331",
+      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.8.0/VideoVault_Premier_Pro_mac_1.8.0.pkg",
+      "checksumSha256": "c996091256ff102dba6c57975c05951c3fd57d75fa8a0afe4bda0c664b24c500",
       "packageType": "pkg",
-      "size": 272876
+      "size": 273263
     },
     "win32": {
       "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.7.2/VideoVault_Premiere_Pro_Windows_1.7.2.zip",
