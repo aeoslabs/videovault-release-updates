@@ -1,15 +1,15 @@
 {
   "id": "com.aeos.videovault.premiere",
   "name": "VideoVault Premiere Extension",
-  "latestVersion": "1.8.7",
-  "releaseNotes": "- keeps the Comments tab hidden unless the desktop bridge reports `comments: true` for the signed-in user\n- refreshes proxy availability after NAS-side proxy requests finish, so server and local counts update without reopening the panel\n- seeds returned NAS proxy destinations into the local manifest to help the toggle detect freshly created server proxies sooner\n- tightens the compact header and tab styling so selected and hover states no longer clash",
+  "latestVersion": "1.8.9",
+  "releaseNotes": "- adds the new comments review flow with company selection, project pickers, review-video lists, inline playback, timeline markers, and draggable comment threads behind the existing desktop feature gate\n- tightens the full shell again so the panel feels more packed, flatter, and closer to a Frame.io-style extension instead of roomy dashboard cards\n- keeps proxy controls and comment surfaces visually denser with smaller radii, tighter spacing, and cleaner hierarchy across Home, Proxies, and Comments",
   "mandatory": false,
   "platforms": {
     "darwin": {
-      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.8.7/VideoVault_Premier_Pro_mac_1.8.7.pkg",
-      "checksumSha256": "c41b528da3f903f1253a38fa67f34b4ab42b2000da4ed1b90b9367306ffa9647",
+      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.8.9/VideoVault_Premier_Pro_mac_1.8.9.pkg",
+      "checksumSha256": "79520750d2072054041212f21dde8e189ecc915522d242639db580df796c2221",
       "packageType": "pkg",
-      "size": 277163
+      "size": 285436
     },
     "win32": {
       "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.8.7/VideoVault_Premiere_Pro_Windows_1.8.7.zip",
