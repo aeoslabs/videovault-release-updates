@@ -1,15 +1,15 @@
 {
   "id": "com.aeos.videovault.premiere",
   "name": "VideoVault Premiere Extension",
-  "latestVersion": "1.8.2",
-  "releaseNotes": "- Bumped the Premiere extension release line to `1.8.2`.\n- Fixed the background helper so it uses the correct extension-version resolver at runtime.\n- Kept the UI and proxy-request behavior otherwise unchanged from `1.8.1`.\n- Updated the shipped extension version to `1.8.2`.\n- Replaced stale `getExtensionVersionFromManifest()` calls in `client/background.js` with the background-safe `getExtensionVersion()` helper.\n- Prevented the Windows background agent from crashing on startup before event emission.\n- Extension version bumped to `1.8.2`.\n- Update `extensions/adobe-premiere/latest.json` in `videovault-release-updates` after packaging the new macOS and Windows installers.\n- Release tag should follow:\n- `premiere-extension-v1.8.2`",
+  "latestVersion": "1.8.4",
+  "releaseNotes": "- Bumped the Premiere extension release line to `1.8.4`.\n- Refined the compact shell layout and top navigation so the panel reads closer to the intended editorial UI direction.\n- Added proxy request history and live status tracking for queued proxy jobs returned by VideoVault Connect.\n- Updated the shipped extension version to `1.8.4`.\n- Added `Info` and `History` subsections under the proxy area.\n- Showed proxy-request rows with file path plus current state such as waiting, processing, or done.\n- Improved proxy lookup compatibility so the panel can understand both same-name proxy outputs and legacy `_Proxy` suffix outputs.\n- Extension version bumped to `1.8.4`.\n- Update `extensions/adobe-premiere/latest.json` in `videovault-release-updates` after packaging the new macOS and Windows installers.\n- Release tag should follow:\n- `premiere-extension-v1.8.4`",
   "mandatory": false,
   "platforms": {
     "darwin": {
-      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.8.2/VideoVault_Premier_Pro_mac_1.8.2.pkg",
-      "checksumSha256": "305d671c2cf8082142a1394129975ec7b24ebc2525739dd77d3f1500f366cfbc",
+      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.8.4/VideoVault_Premier_Pro_mac_1.8.4.pkg",
+      "checksumSha256": "adfaca86373912c1a956f32c8356fb791b4bdf828d0aab94503836a7204ec251",
       "packageType": "pkg",
-      "size": 273295
+      "size": 276613
     },
     "win32": {
       "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.8.2/VideoVault_Premiere_Pro_Windows_1.8.2.zip",
