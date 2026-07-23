@@ -1,13 +1,13 @@
 {
   "id": "com.aeos.videovault.premiere",
   "name": "VideoVault Premiere Extension",
-  "latestVersion": "1.8.10",
-  "releaseNotes": "- persists per-project proxy request history so the panel keeps recent create jobs visible across reopen/restart cycles\n- makes Home act directly on missing proxies with a simpler `Create proxies` action instead of bouncing users into a secondary screen\n- tightens proxy copy and follow-up rescans so VideoVault Server availability catches up on the panel after create requests finish",
+  "latestVersion": "1.8.12",
+  "releaseNotes": "- aligns the release version sources so packaging, updater manifests, and extension metadata all point to the same build\n- keeps the newer compact home screen, sync action, and proxy coverage layout introduced in the current UI pass\n- avoids another release-updates mismatch caused by stale version files",
   "mandatory": false,
   "platforms": {
     "darwin": {
-      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.8.10/VideoVault_Premier_Pro_mac_1.8.10.pkg",
-      "checksumSha256": "2e9e1bfb39e18ef68d2d58dbf5bea12daa3d32b726259a29c74cb989dcfc714f",
+      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.8.12/VideoVault_Premier_Pro_mac_1.8.12.pkg",
+      "checksumSha256": "b30746b6daab38979eb0b12cb512abac86e906abdbfea5f763991e5363d531bf",
       "packageType": "pkg",
       "size": 291064
     },
