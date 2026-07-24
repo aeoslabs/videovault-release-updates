@@ -1,15 +1,15 @@
 {
   "id": "com.aeos.videovault.premiere",
   "name": "VideoVault Premiere Extension",
-  "latestVersion": "1.8.12",
-  "releaseNotes": "- aligns the release version sources so packaging, updater manifests, and extension metadata all point to the same build\n- keeps the newer compact home screen, sync action, and proxy coverage layout introduced in the current UI pass\n- avoids another release-updates mismatch caused by stale version files",
+  "latestVersion": "1.8.13",
+  "releaseNotes": "- Bumps the extension bug version for the latest proxy, comments, and UI updates.",
   "mandatory": false,
   "platforms": {
     "darwin": {
-      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.8.12/VideoVault_Premier_Pro_mac_1.8.12.pkg",
-      "checksumSha256": "b30746b6daab38979eb0b12cb512abac86e906abdbfea5f763991e5363d531bf",
+      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.8.13/VideoVault_Premier_Pro_mac_1.8.13.pkg",
+      "checksumSha256": "2b6f66f5d0ac15b3252630987f5661c81b71b5e9043b2a73ab0f9148be79ae7c",
       "packageType": "pkg",
-      "size": 291064
+      "size": 291055
     },
     "win32": {
       "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.8.12/VideoVault_Premiere_Pro_Windows_1.8.12.zip",
