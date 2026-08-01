@@ -1,11 +1,11 @@
-version: 0.0.20
+version: 0.0.21
 files:
-  - url: https://github.com/aeoslabs/videovault-release-updates/releases/download/videovault-connect-beta-v0.0.20/VideoVault-Connect-Beta-0.0.20-universal.zip
-    sha512: 90jdHG4nzvIyeF2V8P4QpZOpT5g7XWfREC5DDWKdE+CrZfPjlVFljCxczIA6CxkVk/MLXgoqM39kaqj8VU0OzQ==
-    size: 318774858
-  - url: https://github.com/aeoslabs/videovault-release-updates/releases/download/videovault-connect-beta-v0.0.20/VideoVault-Connect-Beta-0.0.20-universal.dmg
-    sha512: ozqiIrkR+lBzheGR1fuWo/77Tlz0CkEvJzC98sm782xs+FGscPEdkJOfKwZ1ovKNM0+QXU1LBXkcQMk/6QpgKw==
-    size: 329914881
-path: https://github.com/aeoslabs/videovault-release-updates/releases/download/videovault-connect-beta-v0.0.20/VideoVault-Connect-Beta-0.0.20-universal.zip
-sha512: 90jdHG4nzvIyeF2V8P4QpZOpT5g7XWfREC5DDWKdE+CrZfPjlVFljCxczIA6CxkVk/MLXgoqM39kaqj8VU0OzQ==
-releaseDate: '2026-08-01T16:45:19.773Z'
+  - url: https://github.com/aeoslabs/videovault-release-updates/releases/download/videovault-connect-beta-v0.0.21/VideoVault-Connect-Beta-0.0.21-universal.zip
+    sha512: Jwir4oeMEPJiCNSOiez6cSa2F1SGvVzVLJrKCaNnlMlUAQCqITWFnlJgrguS0GEzEfQ09glmmyl1MYoX4ykSZA==
+    size: 318773607
+  - url: https://github.com/aeoslabs/videovault-release-updates/releases/download/videovault-connect-beta-v0.0.21/VideoVault-Connect-Beta-0.0.21-universal.dmg
+    sha512: pU1ndRPMNveDCsC9FphibURJyv1Yts15JeRI3weop6WXa8ioWWhL7UarielZ/4EyAJCLnxe4rqlikOZTS27PAA==
+    size: 329937603
+path: https://github.com/aeoslabs/videovault-release-updates/releases/download/videovault-connect-beta-v0.0.21/VideoVault-Connect-Beta-0.0.21-universal.zip
+sha512: Jwir4oeMEPJiCNSOiez6cSa2F1SGvVzVLJrKCaNnlMlUAQCqITWFnlJgrguS0GEzEfQ09glmmyl1MYoX4ykSZA==
+releaseDate: '2026-08-01T17:51:50.707Z'
