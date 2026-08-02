@@ -1,15 +1,15 @@
 {
   "id": "com.aeos.videovault.photoshop",
   "name": "VideoVault Photoshop Extension",
-  "latestVersion": "1.0.0",
-  "releaseNotes": "- Initial release: connection status panel showing Ethernet/Wi-Fi, VideoVault Server (SMB) reachability, and VideoVault Desktop App status",
+  "latestVersion": "0.1.1",
+  "releaseNotes": "- Added open-file safety checks for server-hosted Photoshop files, with project-level presence tracking and immediate conflict warnings when another teammate is already in the same file\n- Added stronger path normalization for UNC, `smb://`, and mapped-drive workflows so server files resolve more reliably before conflict checks run\n- Kept the existing panel design intact while adding a compact Open file status row for clear, low-noise safety feedback",
   "mandatory": false,
   "platforms": {
     "win32": {
-      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/photoshop-extension-v1.0.0/VideoVault_Photoshop_Windows_1.0.0.zip",
-      "checksumSha256": "b47542470ce43775222403fcf7e1631191aef0f64f61dffd82425d715e324a84",
+      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/photoshop-extension-v0.1.1/VideoVault_Photoshop_Windows_0.1.1.zip",
+      "checksumSha256": "d2a831e8cdb3a6203ccfe929af6993680d5c016f2aad44bb8105553f92fef632",
       "packageType": "zip",
-      "size": 183841,
+      "size": 185754,
       "extensionFolderName": "videovault-photoshop-extension"
     },
     "darwin": {
