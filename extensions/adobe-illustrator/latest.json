@@ -11,6 +11,12 @@
       "packageType": "zip",
       "size": 183902,
       "extensionFolderName": "videovault-illustrator-extension"
+    },
+    "darwin": {
+      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/illustrator-extension-v1.0.0/VideoVault_Illustrator_mac_1.0.0.pkg",
+      "checksumSha256": "5252d61e01af532f9422c43abaa67cdc1dc72e2cbe7dce886b9d86357a7b255b",
+      "packageType": "pkg",
+      "size": 182615
     }
   }
 }
