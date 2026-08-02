@@ -13,10 +13,10 @@
       "extensionFolderName": "videovault-illustrator-extension"
     },
     "darwin": {
-      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/illustrator-extension-v1.0.0/VideoVault_Illustrator_mac_1.0.0.pkg",
-      "checksumSha256": "5252d61e01af532f9422c43abaa67cdc1dc72e2cbe7dce886b9d86357a7b255b",
+      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/illustrator-extension-v0.1.1/VideoVault_Illustrator_mac_0.1.1.pkg",
+      "checksumSha256": "41f9f9ac4811756a75d52f7f3e78c9c89cf4789405c737924401d18b722820b2",
       "packageType": "pkg",
-      "size": 182615
+      "size": 184637
     }
   }
 }
