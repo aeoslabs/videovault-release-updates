@@ -1,0 +1,16 @@
+{
+  "id": "com.aeos.videovault.illustrator",
+  "name": "VideoVault Illustrator Extension",
+  "latestVersion": "1.0.0",
+  "releaseNotes": "- Initial release: connection status panel showing Ethernet/Wi-Fi, VideoVault Server (SMB) reachability, and VideoVault Desktop App status",
+  "mandatory": false,
+  "platforms": {
+    "win32": {
+      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/illustrator-extension-v1.0.0/VideoVault_Illustrator_Windows_1.0.0.zip",
+      "checksumSha256": "47e0b572e056b828188b83411dc4f98073b6afbffbb0fa95f49f73ef6c4517ac",
+      "packageType": "zip",
+      "size": 183902,
+      "extensionFolderName": "videovault-illustrator-extension"
+    }
+  }
+}
