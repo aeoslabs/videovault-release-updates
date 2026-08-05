@@ -1,15 +1,15 @@
 {
   "id": "com.aeos.videovault.premiere",
   "name": "VideoVault Premiere Extension",
-  "latestVersion": "1.9.0",
-  "releaseNotes": "- August 5, 2026\n- adds a new full-resolution source checkout workflow for projects that need local 4K playback instead of proxy-only editing\n- lets editors return a project back to server-linked source paths before handoff from the same panel\n- shows clearer status when a project is still linked to local full-resolution files or needs recovery before handoff\n- adds `Checkout Sources` so editors can mirror original source media into local VideoVault storage and switch the project onto those local files\n- adds `Return To Server` so editors can relink managed clips back to NAS source paths before handing a project off\n- tracks full-resolution source availability alongside existing proxy tracking so the panel can recover mixed or interrupted local-checkout states more clearly\n- keeps the existing proxy workflow available for projects that still edit cleanly on proxies\n- this release is intended to ship on both Windows and macOS\n- teams moving between proxy work and full-resolution work should update all editor machines to the same release",
+  "latestVersion": "1.10.0",
+  "releaseNotes": "- August 5, 2026\n- adds a full-resolution source checkout workflow for editors who need local 4K media instead of proxy-only playback\n- lets editors return a project back to server-linked source paths before handoff from the same panel\n- makes the new 4K checkout controls visible directly in the main ready-to-work views\n- adds Checkout 4K Sources so the panel can copy all tracked project source media into local VideoVault storage and switch Premiere onto those local files\n- adds Return To Server so the same project can be relinked back to NAS source paths before the next handoff\n- shows clearer source status when a project is in shared mode, full-resolution local mode, or a mixed recovery state\n- keeps the existing proxy workflow available for projects that still cut cleanly on proxies\n- this release is intended to ship on both Windows and macOS\n- teams moving between proxy work and full-resolution work should update all editor machines to the same release",
   "mandatory": false,
   "platforms": {
     "darwin": {
-      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.9.0/VideoVault_Premier_Pro_mac_1.9.0.pkg",
-      "checksumSha256": "ec7599b8cb2f7aaa51aced1c761242044569f0d67640924442c7419f8193a9d6",
+      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.10.0/VideoVault_Premier_Pro_mac_1.10.0.pkg",
+      "checksumSha256": "bbd9a0e2f4802d2fab833da82c2b940e6ca5fed80f1928d25b99a20b578a637f",
       "packageType": "pkg",
-      "size": 291065
+      "size": 298624
     },
     "win32": {
       "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.9.0/VideoVault_Premiere_Pro_Windows_1.9.0.zip",
