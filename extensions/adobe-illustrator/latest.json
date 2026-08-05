@@ -1,15 +1,15 @@
 {
   "id": "com.aeos.videovault.illustrator",
   "name": "VideoVault Illustrator Extension",
-  "latestVersion": "0.1.1",
-  "releaseNotes": "- Added open-file safety checks for server-hosted Illustrator files, with project-level presence tracking and immediate conflict warnings when another teammate is already in the same file\n- Added stronger path normalization for UNC, `smb://`, and mapped-drive workflows so server files resolve more reliably before conflict checks run\n- Kept the existing panel design intact while adding a compact Open file status row for clear, low-noise safety feedback",
+  "latestVersion": "0.1.2",
+  "releaseNotes": "- Improved Adobe release workflow reliability by removing over-broad job serialization that could block or cancel builds before packaging finished\n- Carried forward the open-file safety checks for server-hosted Illustrator files, including project-level presence tracking and conflict warnings",
   "mandatory": false,
   "platforms": {
     "win32": {
-      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/illustrator-extension-v0.1.1/VideoVault_Illustrator_Windows_0.1.1.zip",
-      "checksumSha256": "c517edf89139c86b49f205429755d568d5ea33c10c85fed08b4fe55dff37775e",
+      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/illustrator-extension-v0.1.2/VideoVault_Illustrator_Windows_0.1.2.zip",
+      "checksumSha256": "dd9de887c59f9c10c19c27ce5f155215f839e0f9375827cb79c7539c0b8392d0",
       "packageType": "zip",
-      "size": 185822,
+      "size": 186323,
       "extensionFolderName": "videovault-illustrator-extension"
     },
     "darwin": {
