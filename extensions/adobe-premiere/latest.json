@@ -1,15 +1,15 @@
 {
   "id": "com.aeos.videovault.premiere",
   "name": "VideoVault Premiere Extension",
-  "latestVersion": "1.8.15",
-  "releaseNotes": "- clean re-release of the 1.8.14 change (Comments tab hidden) after the earlier bump wasn't actually merged into the release branches",
+  "latestVersion": "1.9.0",
+  "releaseNotes": "- August 5, 2026\n- adds a new full-resolution source checkout workflow for projects that need local 4K playback instead of proxy-only editing\n- lets editors return a project back to server-linked source paths before handoff from the same panel\n- shows clearer status when a project is still linked to local full-resolution files or needs recovery before handoff\n- adds `Checkout Sources` so editors can mirror original source media into local VideoVault storage and switch the project onto those local files\n- adds `Return To Server` so editors can relink managed clips back to NAS source paths before handing a project off\n- tracks full-resolution source availability alongside existing proxy tracking so the panel can recover mixed or interrupted local-checkout states more clearly\n- keeps the existing proxy workflow available for projects that still edit cleanly on proxies\n- this release is intended to ship on both Windows and macOS\n- teams moving between proxy work and full-resolution work should update all editor machines to the same release",
   "mandatory": false,
   "platforms": {
     "darwin": {
-      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.8.15/VideoVault_Premier_Pro_mac_1.8.15.pkg",
-      "checksumSha256": "7a77fa988a31e06cbdb05c032bb04c046f78e65acc2c83649e50692bd9f9ecf2",
+      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.9.0/VideoVault_Premier_Pro_mac_1.9.0.pkg",
+      "checksumSha256": "ec7599b8cb2f7aaa51aced1c761242044569f0d67640924442c7419f8193a9d6",
       "packageType": "pkg",
-      "size": 291075
+      "size": 291065
     },
     "win32": {
       "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.8.15/VideoVault_Premiere_Pro_Windows_1.8.15.zip",
