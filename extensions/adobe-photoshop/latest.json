@@ -1,15 +1,15 @@
 {
   "id": "com.aeos.videovault.photoshop",
   "name": "VideoVault Photoshop Extension",
-  "latestVersion": "0.1.1",
-  "releaseNotes": "- Added open-file safety checks for server-hosted Photoshop files, with project-level presence tracking and immediate conflict warnings when another teammate is already in the same file\n- Added stronger path normalization for UNC, `smb://`, and mapped-drive workflows so server files resolve more reliably before conflict checks run\n- Kept the existing panel design intact while adding a compact Open file status row for clear, low-noise safety feedback",
+  "latestVersion": "0.1.2",
+  "releaseNotes": "- Improved Adobe release workflow reliability by removing over-broad job serialization that could block or cancel builds before packaging finished\n- Carried forward the open-file safety checks for server-hosted Photoshop files, including project-level presence tracking and conflict warnings",
   "mandatory": false,
   "platforms": {
     "win32": {
-      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/photoshop-extension-v0.1.1/VideoVault_Photoshop_Windows_0.1.1.zip",
-      "checksumSha256": "d2a831e8cdb3a6203ccfe929af6993680d5c016f2aad44bb8105553f92fef632",
+      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/photoshop-extension-v0.1.2/VideoVault_Photoshop_Windows_0.1.2.zip",
+      "checksumSha256": "81614290b7b56e920fafb71ec58e0bd76bc4cb76716720ca3533d2e8df7cd94a",
       "packageType": "zip",
-      "size": 185754,
+      "size": 186255,
       "extensionFolderName": "videovault-photoshop-extension"
     },
     "darwin": {
