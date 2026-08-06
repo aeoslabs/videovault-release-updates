@@ -1,15 +1,15 @@
 {
   "id": "com.aeos.videovault.premiere",
   "name": "VideoVault Premiere Extension",
-  "latestVersion": "1.10.0",
-  "releaseNotes": "- August 5, 2026\n- adds a full-resolution source checkout workflow for editors who need local 4K media instead of proxy-only playback\n- lets editors return a project back to server-linked source paths before handoff from the same panel\n- makes the new 4K checkout controls visible directly in the main ready-to-work views\n- adds Checkout 4K Sources so the panel can copy all tracked project source media into local VideoVault storage and switch Premiere onto those local files\n- adds Return To Server so the same project can be relinked back to NAS source paths before the next handoff\n- shows clearer source status when a project is in shared mode, full-resolution local mode, or a mixed recovery state\n- keeps the existing proxy workflow available for projects that still cut cleanly on proxies\n- this release is intended to ship on both Windows and macOS\n- teams moving between proxy work and full-resolution work should update all editor machines to the same release",
+  "latestVersion": "1.10.1",
+  "releaseNotes": "- August 6, 2026\n- adds a manual `Repair Links` action so editors can restore VideoVault-managed source and proxy links after Premiere opens into a slow or mixed relink state\n- sharpens the full-resolution checkout UI so the 4K local workflow is visible in both the ready-to-cache and project-ready states\n- adds internal documentation and a browser preview page so the team can review the current panel flow before packaging or release\n- repairs manifest-tracked source links back to the preferred local or server mode from one panel action\n- repairs manifest-tracked proxy links for the same project state and then saves the Premiere project in place\n- persists preferred source and proxy targets in the manifest so recovery uses the editor's last intended mode\n- adds a standalone preview page for the current source-checkout and repair UX\n- this is a patch release on top of `1.10.0`\n- this release is intended to ship on both Windows and macOS",
   "mandatory": false,
   "platforms": {
     "darwin": {
-      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.10.0/VideoVault_Premier_Pro_mac_1.10.0.pkg",
-      "checksumSha256": "bbd9a0e2f4802d2fab833da82c2b940e6ca5fed80f1928d25b99a20b578a637f",
+      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.10.1/VideoVault_Premier_Pro_mac_1.10.1.pkg",
+      "checksumSha256": "4ed81c801d9d30dd5f9c8ff8908b47e1f4acc5ac54020ad8baaff5a1f5c60920",
       "packageType": "pkg",
-      "size": 298624
+      "size": 315905
     },
     "win32": {
       "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.10.0/VideoVault_Premiere_Pro_Windows_1.10.0.zip",
