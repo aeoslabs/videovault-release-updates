@@ -1,15 +1,15 @@
 {
   "id": "com.aeos.videovault.premiere",
   "name": "VideoVault Premiere Extension",
-  "latestVersion": "1.10.2",
-  "releaseNotes": "- August 6, 2026\n- makes it clear whether Premiere is using server originals, local originals, or media links that need attention\n- adds a storage and media summary before bringing full-resolution project media onto the editor's computer\n- shows the current file, copied data, progress percentage, and estimated time during long transfers\n- copies available proxies alongside project originals for a more complete local workspace\n- safely keeps completed files when a transfer is cancelled and explains how to continue later\n- saves and verifies the Premiere project after switching between local and server originals\n- restores interrupted operations as a visible recovery state when the panel is reopened\n- use **Edit with local proxies** for ordinary lightweight editing\n- use **Work with originals locally** for effects, roto, and full-quality playback\n- use **Use server originals** before handing the project to another editor or computer\n- use **Fix media links** whenever the panel reports that links need attention",
+  "latestVersion": "1.10.3",
+  "releaseNotes": "- August 6, 2026\n- makes **Bring 4K media local** copy only 4K or large original files needed for demanding work\n- keeps proxy caching separate, so a full-resolution checkout no longer also copies proxy media\n- treats lightweight media remaining on VideoVault Server as expected, not as a broken mixed-media state\n- clarifies the local-media controls and adds checkout logs with file count, data size, copied files, and failures\n- use **Edit with local proxies** for normal lightweight editing\n- use **Bring 4K media local** when effects, roto, or full-resolution playback need local originals\n- use **Use server originals** before handing the project to another editor or computer\n- use **Fix media links** only if the panel reports a missing checked-out original",
   "mandatory": false,
   "platforms": {
     "darwin": {
-      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.10.2/VideoVault_Premier_Pro_mac_1.10.2.pkg",
-      "checksumSha256": "e1b9284ed29204136a2b3b39de69a3e48bccadf9303a17ad64141b738e51d1e6",
+      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.10.3/VideoVault_Premier_Pro_mac_1.10.3.pkg",
+      "checksumSha256": "1c47d7989cd40147ab5d78b4cbdaf1707e09eae1a6c5dfceab29ab61f12489b3",
       "packageType": "pkg",
-      "size": 322713
+      "size": 323121
     },
     "win32": {
       "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.10.2/VideoVault_Premiere_Pro_Windows_1.10.2.zip",
