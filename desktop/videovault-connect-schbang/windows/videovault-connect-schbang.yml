@@ -1,8 +1,8 @@
 version: 1.3.31
 files:
   - url: https://github.com/aeoslabs/videovault-release-updates/releases/download/videovault-connect-schbang-v1.3.31/VideoVault-Connect-Schbang-Setup-1.3.31.exe
-    sha512: Sw3Mvj/4Y4BjXsw0izlna/ymAfa886jcPrn8lzgWquLrM7yIjMwwIfLGJsu8wQTgx9XMgIA++0RceONu2PnAtQ==
-    size: 202918009
+    sha512: UhDNruuJ3mQFurrHfv25gl31t/MyLdHITvyCtmlhyNc4u3yS2BWSa+/U1mTHyPIHTph/bTjPv9EsejXE4YLorw==
+    size: 202918651
 path: https://github.com/aeoslabs/videovault-release-updates/releases/download/videovault-connect-schbang-v1.3.31/VideoVault-Connect-Schbang-Setup-1.3.31.exe
-sha512: Sw3Mvj/4Y4BjXsw0izlna/ymAfa886jcPrn8lzgWquLrM7yIjMwwIfLGJsu8wQTgx9XMgIA++0RceONu2PnAtQ==
-releaseDate: '2026-08-06T10:28:14.343Z'
+sha512: UhDNruuJ3mQFurrHfv25gl31t/MyLdHITvyCtmlhyNc4u3yS2BWSa+/U1mTHyPIHTph/bTjPv9EsejXE4YLorw==
+releaseDate: '2026-08-06T12:36:02.542Z'
