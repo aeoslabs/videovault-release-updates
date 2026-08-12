@@ -13,10 +13,10 @@
       "extensionFolderName": "videovault-photoshop-extension"
     },
     "darwin": {
-      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/photoshop-extension-v1.2.0/VideoVault_Photoshop_mac_1.2.0.pkg",
-      "checksumSha256": "61d86ae7f78ccbc9b2af808d602e69918e139b5e3de2af157fd989ffe655fa92",
+      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/photoshop-extension-v1.4.0/VideoVault_Photoshop_mac_1.4.0.pkg",
+      "checksumSha256": "cbe454ed5aa8faa5df9602dcd9dc0a3068ef9ec9184b5ab8124a7a9fec06a3e7",
       "packageType": "pkg",
-      "size": 191420
+      "size": 193444
     }
   }
 }
