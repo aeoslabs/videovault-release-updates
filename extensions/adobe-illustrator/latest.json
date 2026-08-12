@@ -1,15 +1,15 @@
 {
   "id": "com.aeos.videovault.illustrator",
   "name": "VideoVault Illustrator Extension",
-  "latestVersion": "1.2.0",
-  "releaseNotes": "- Version numbering now stays in sync with the Photoshop and After Effects extensions (1.x.0 across all three) instead of drifting independently\n- No functional changes since 0.1.3: connection status (Ethernet/Wi-Fi, VideoVault Server reachability, Desktop App status), open-file safety checks, and user activity telemetry are all already in place",
+  "latestVersion": "1.4.0",
+  "releaseNotes": "- Telemetry now survives the Desktop App being closed: if an activity event can't reach the local bridge (Desktop App not running, or the send otherwise fails), it's held in a small local queue instead of being dropped, and gets sent automatically the next time the Desktop App becomes reachable - on the next successful send, on every ~45s heartbeat tick, and once when the panel first loads. Queued events are capped at 500 and 7 days old to avoid unbounded growth if the Desktop App stays closed for a long time, and are sent in batches of 20 per cycle so a large backlog doesn't open a burst of connections at once.\n- Fixed a bug in this file's own header comment (introduced in 1.3.0) that prematurely closed a block comment, which could break the file from loading in some JS engines depending on how they classify the file - functionally the same 1.3.0 telemetry fix, this just makes sure the file actually parses everywhere.",
   "mandatory": false,
   "platforms": {
     "win32": {
-      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/illustrator-extension-v1.2.0/VideoVault_Illustrator_Windows_1.2.0.zip",
-      "checksumSha256": "c49028262b89aacd2e50b00166cfd213cd3eeed6cf237d3cd6d8aedc07700886",
+      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/illustrator-extension-v1.4.0/VideoVault_Illustrator_Windows_1.4.0.zip",
+      "checksumSha256": "76003b97cd850414437062c46379b96ad4c47eadc4c2166a6765b76ca78efad6",
       "packageType": "zip",
-      "size": 192732,
+      "size": 194696,
       "extensionFolderName": "videovault-illustrator-extension"
     },
     "darwin": {
