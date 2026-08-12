@@ -1,15 +1,15 @@
 {
   "id": "com.aeos.videovault.illustrator",
   "name": "VideoVault Illustrator Extension",
-  "latestVersion": "0.1.2",
-  "releaseNotes": "- Improved Adobe release workflow reliability by removing over-broad job serialization that could block or cancel builds before packaging finished\n- Carried forward the open-file safety checks for server-hosted Illustrator files, including project-level presence tracking and conflict warnings",
+  "latestVersion": "1.2.0",
+  "releaseNotes": "- Version numbering now stays in sync with the Photoshop and After Effects extensions (1.x.0 across all three) instead of drifting independently\n- No functional changes since 0.1.3: connection status (Ethernet/Wi-Fi, VideoVault Server reachability, Desktop App status), open-file safety checks, and user activity telemetry are all already in place",
   "mandatory": false,
   "platforms": {
     "win32": {
-      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/illustrator-extension-v0.1.2/VideoVault_Illustrator_Windows_0.1.2.zip",
-      "checksumSha256": "dd9de887c59f9c10c19c27ce5f155215f839e0f9375827cb79c7539c0b8392d0",
+      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/illustrator-extension-v1.2.0/VideoVault_Illustrator_Windows_1.2.0.zip",
+      "checksumSha256": "c49028262b89aacd2e50b00166cfd213cd3eeed6cf237d3cd6d8aedc07700886",
       "packageType": "zip",
-      "size": 186323,
+      "size": 192732,
       "extensionFolderName": "videovault-illustrator-extension"
     },
     "darwin": {
