@@ -1,15 +1,15 @@
 {
   "id": "com.aeos.videovault.aftereffects",
   "name": "VideoVault After Effects Extension",
-  "latestVersion": "0.1.2",
-  "releaseNotes": "- Improved Adobe release workflow reliability by removing over-broad job serialization that could block or cancel builds before packaging finished\n- Carried forward the open-file safety checks for server-hosted After Effects project files, including project-level presence tracking and conflict warnings",
+  "latestVersion": "1.2.0",
+  "releaseNotes": "- Version numbering now stays in sync with the Photoshop and Illustrator extensions (1.x.0 across all three) instead of drifting independently\n- No functional changes since 0.1.4: connection status (Ethernet/Wi-Fi, VideoVault Server reachability, Desktop App status), open-file safety checks, and user activity telemetry (using the native Render Queue) are all already in place",
   "mandatory": false,
   "platforms": {
     "win32": {
-      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/aftereffects-extension-v0.1.2/VideoVault_AfterEffects_Windows_0.1.2.zip",
-      "checksumSha256": "373d2ab7edf4633e245568c3d1404ff74cc69384af89c268409fd3b364844421",
+      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/aftereffects-extension-v1.2.0/VideoVault_AfterEffects_Windows_1.2.0.zip",
+      "checksumSha256": "8801a80416ff6a1fb2e481a3972f3f4dc2d1cc297e994783216503c81d8f82ed",
       "packageType": "zip",
-      "size": 186660,
+      "size": 192708,
       "extensionFolderName": "videovault-aftereffects-extension"
     },
     "darwin": {
