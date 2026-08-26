@@ -1,11 +1,11 @@
-version: 1.3.71
+version: 1.3.79
 files:
-  - url: https://github.com/aeoslabs/videovault-release-updates/releases/download/videovault-connect-yaas-v1.3.71/VideoVault-Connect-YAAS-1.3.71-universal.zip
-    sha512: XeBjuXE/3hjJlHoFTaVdm7CRtUZs3gCA8ipBSqxLqisAGP8pxN99WYM7eTSKY1zW3lu3f5dd2F0ygCxPc/rmjg==
-    size: 318005685
-  - url: https://github.com/aeoslabs/videovault-release-updates/releases/download/videovault-connect-yaas-v1.3.71/VideoVault-Connect-YAAS-1.3.71-universal.dmg
-    sha512: KQ9Aw4lqxvNwVUAmGXZrRcposWu7v7JOlFt9FiNICbpz/xe4xFgmEDA0J9iftboHvbdx9Fqa1zW4euhgaxGr+A==
-    size: 329174979
-path: https://github.com/aeoslabs/videovault-release-updates/releases/download/videovault-connect-yaas-v1.3.71/VideoVault-Connect-YAAS-1.3.71-universal.zip
-sha512: XeBjuXE/3hjJlHoFTaVdm7CRtUZs3gCA8ipBSqxLqisAGP8pxN99WYM7eTSKY1zW3lu3f5dd2F0ygCxPc/rmjg==
-releaseDate: '2026-08-26T00:43:42.500Z'
+  - url: https://github.com/aeoslabs/videovault-release-updates/releases/download/videovault-connect-yaas-v1.3.79/VideoVault-Connect-YAAS-1.3.79-universal.zip
+    sha512: 7flmKuoBlTlUw+mr4dPE04S7hBlG+4KpXOtx3i5BiHfXW4BH+DH2vqKUO+kZCrZC2PGxEUWyjClQ2Q/Zo+8Emg==
+    size: 318005795
+  - url: https://github.com/aeoslabs/videovault-release-updates/releases/download/videovault-connect-yaas-v1.3.79/VideoVault-Connect-YAAS-1.3.79-universal.dmg
+    sha512: i4UhCRkUtQyTD89viiVTnkl8ktZwTU9kRto9zXd40qM9ZQrsakhQaA4cCyOpowbrzRxN7/3b2eKyLaojN7AWNQ==
+    size: 329134221
+path: https://github.com/aeoslabs/videovault-release-updates/releases/download/videovault-connect-yaas-v1.3.79/VideoVault-Connect-YAAS-1.3.79-universal.zip
+sha512: 7flmKuoBlTlUw+mr4dPE04S7hBlG+4KpXOtx3i5BiHfXW4BH+DH2vqKUO+kZCrZC2PGxEUWyjClQ2Q/Zo+8Emg==
+releaseDate: '2026-08-26T10:16:59.326Z'
