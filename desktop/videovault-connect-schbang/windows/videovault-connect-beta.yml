@@ -1,8 +1,8 @@
-version: 1.3.81
+version: 1.3.98
 files:
-  - url: https://github.com/aeoslabs/videovault-release-updates/releases/download/videovault-connect-schbang-v1.3.81/VideoVault-Connect-Schbang-Setup-1.3.81.exe
-    sha512: bjpZ+teRY2bBjw4TtCL29nyp+a0Z2D5aRg8JHBlMNcRQJFiwD1IPwTXvVumkfuMkmxOpssHD5ihL+6w2Rb+IkA==
-    size: 200208381
-path: https://github.com/aeoslabs/videovault-release-updates/releases/download/videovault-connect-schbang-v1.3.81/VideoVault-Connect-Schbang-Setup-1.3.81.exe
-sha512: bjpZ+teRY2bBjw4TtCL29nyp+a0Z2D5aRg8JHBlMNcRQJFiwD1IPwTXvVumkfuMkmxOpssHD5ihL+6w2Rb+IkA==
-releaseDate: '2026-08-26T12:22:43.125Z'
+  - url: https://github.com/aeoslabs/videovault-release-updates/releases/download/videovault-connect-schbang-v1.3.98/VideoVault-Connect-Schbang-Setup-1.3.98.exe
+    sha512: QzU14CPGF6eC2FvwPhsfPohpmB912XMQhB23CUNbtwL4ZLUlrP9pom0uos3cear3GIAMYR1bg65R3SoonQlZwQ==
+    size: 141778871
+path: https://github.com/aeoslabs/videovault-release-updates/releases/download/videovault-connect-schbang-v1.3.98/VideoVault-Connect-Schbang-Setup-1.3.98.exe
+sha512: QzU14CPGF6eC2FvwPhsfPohpmB912XMQhB23CUNbtwL4ZLUlrP9pom0uos3cear3GIAMYR1bg65R3SoonQlZwQ==
+releaseDate: '2026-09-03T08:49:14.736Z'
