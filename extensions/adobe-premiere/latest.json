@@ -1,15 +1,15 @@
 {
   "id": "com.aeos.videovault.premiere",
   "name": "VideoVault Premiere Extension",
-  "latestVersion": "1.10.3",
-  "releaseNotes": "- August 6, 2026\n- makes **Bring 4K media local** copy only 4K or large original files needed for demanding work\n- keeps proxy caching separate, so a full-resolution checkout no longer also copies proxy media\n- treats lightweight media remaining on VideoVault Server as expected, not as a broken mixed-media state\n- clarifies the local-media controls and adds checkout logs with file count, data size, copied files, and failures\n- use **Edit with local proxies** for normal lightweight editing\n- use **Bring 4K media local** when effects, roto, or full-resolution playback need local originals\n- use **Use server originals** before handing the project to another editor or computer\n- use **Fix media links** only if the panel reports a missing checked-out original",
+  "latestVersion": "1.11.1",
+  "releaseNotes": "- September 7, 2026\n- Edit with local proxies, Work Local, and Use server originals now live together as one group — they're the same choice, so they read as one now instead of being split across two separate places on the panel\n- Sync Proxies and Work Local share one progress view — same ring, same file counter, same Cancel — instead of two different-looking progress screens\n- adds a running \"X of Y files\" count under the current file name during both proxy syncing and Work Local\n- Change cache location is disabled while a sync or Work Local run is in progress\n- Cancel now returns you straight to the three buttons instead of leaving the screen on a \"cancelled\" message\n- long project names no longer crowd out the connection badge — they truncate with the full name available on hover\n- use **Edit with local proxies** for normal lightweight editing\n- use **Work Local** when you want the whole project on your computer for full local-disk speed\n- use **Use server originals** before handing the project to another editor or computer",
   "mandatory": false,
   "platforms": {
     "darwin": {
-      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.10.3/VideoVault_Premier_Pro_mac_1.10.3.pkg",
-      "checksumSha256": "1c47d7989cd40147ab5d78b4cbdaf1707e09eae1a6c5dfceab29ab61f12489b3",
+      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.11.1/VideoVault_Premier_Pro_mac_1.11.1.pkg",
+      "checksumSha256": "795eaf488b2cc83b5a40f3f41a326e3e5e7467c6e64f8beb8c906ec38798ba83",
       "packageType": "pkg",
-      "size": 323121
+      "size": 327949
     },
     "win32": {
       "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.10.3/VideoVault_Premiere_Pro_Windows_1.10.3.zip",
