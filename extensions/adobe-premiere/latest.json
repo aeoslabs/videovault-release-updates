@@ -1,15 +1,15 @@
 {
   "id": "com.aeos.videovault.premiere",
   "name": "VideoVault Premiere Extension",
-  "latestVersion": "1.11.1",
-  "releaseNotes": "- September 7, 2026\n- Edit with local proxies, Work Local, and Use server originals now live together as one group — they're the same choice, so they read as one now instead of being split across two separate places on the panel\n- Sync Proxies and Work Local share one progress view — same ring, same file counter, same Cancel — instead of two different-looking progress screens\n- adds a running \"X of Y files\" count under the current file name during both proxy syncing and Work Local\n- Change cache location is disabled while a sync or Work Local run is in progress\n- Cancel now returns you straight to the three buttons instead of leaving the screen on a \"cancelled\" message\n- long project names no longer crowd out the connection badge — they truncate with the full name available on hover\n- use **Edit with local proxies** for normal lightweight editing\n- use **Work Local** when you want the whole project on your computer for full local-disk speed\n- use **Use server originals** before handing the project to another editor or computer",
+  "latestVersion": "1.12.3",
+  "releaseNotes": "- September 7, 2026\n- fixes a bug where running Work Local more than once on the same project could quietly corrupt its record of where a clip's server original lives, causing **Use server originals** to later report that file as missing even though it was fine — the extension now trusts the already-known-good server path instead of re-guessing it on every scan\n- fixes the same re-guessed path being wrong on Mac in the first place, for anyone hitting this before a second Work Local run",
   "mandatory": false,
   "platforms": {
     "darwin": {
-      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.11.1/VideoVault_Premier_Pro_mac_1.11.1.pkg",
-      "checksumSha256": "795eaf488b2cc83b5a40f3f41a326e3e5e7467c6e64f8beb8c906ec38798ba83",
+      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.12.3/VideoVault_Premier_Pro_mac_1.12.3.pkg",
+      "checksumSha256": "e550544c72aed5663f3c1e346fd763c2206f89c1e8ee7fecd10af41152a08eef",
       "packageType": "pkg",
-      "size": 327949
+      "size": 333122
     },
     "win32": {
       "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.11.1/VideoVault_Premiere_Pro_Windows_1.11.1.zip",
