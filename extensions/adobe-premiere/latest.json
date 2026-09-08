@@ -1,15 +1,15 @@
 {
   "id": "com.aeos.videovault.premiere",
   "name": "VideoVault Premiere Extension",
-  "latestVersion": "1.12.3",
-  "releaseNotes": "- September 7, 2026\n- fixes a bug where running Work Local more than once on the same project could quietly corrupt its record of where a clip's server original lives, causing **Use server originals** to later report that file as missing even though it was fine — the extension now trusts the already-known-good server path instead of re-guessing it on every scan\n- fixes the same re-guessed path being wrong on Mac in the first place, for anyone hitting this before a second Work Local run",
+  "latestVersion": "1.15.2",
+  "releaseNotes": "- September 8, 2026\n- When the extension opens VideoVault Connect for you, it now stays completely out of the way — no window pops up over Premiere, it just starts quietly in the background, exactly like it does when your computer boots\n- Clearer message when VideoVault Connect genuinely isn't installed and signed in on your computer yet, versus just not reachable right now",
   "mandatory": false,
   "platforms": {
     "darwin": {
-      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.12.3/VideoVault_Premier_Pro_mac_1.12.3.pkg",
-      "checksumSha256": "e550544c72aed5663f3c1e346fd763c2206f89c1e8ee7fecd10af41152a08eef",
+      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.15.2/VideoVault_Premier_Pro_mac_1.15.2.pkg",
+      "checksumSha256": "c8a145f24a82aa07929ece81f083bb679d6591c1f6cf88633baf4abf7ab681d6",
       "packageType": "pkg",
-      "size": 333122
+      "size": 813296
     },
     "win32": {
       "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.12.3/VideoVault_Premiere_Pro_Windows_1.12.3.zip",
