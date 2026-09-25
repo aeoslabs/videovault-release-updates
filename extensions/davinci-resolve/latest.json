@@ -1,16 +1,16 @@
 {
   "id": "com.aeos.videovault.davinci",
   "name": "VideoVault DaVinci Resolve Extension",
-  "latestVersion": "0.1.0",
-  "releaseNotes": "- Open the panel from Workspace > Workflow Integrations > VideoVault and leave it open while you work.\n- The panel shows whether the VideoVault Desktop App is running, which Resolve project is open, and whether your activity is being reported.\n- If the Desktop App is closed, your activity is saved on your computer and sent when it opens again.\n- Renders started from Resolve are reported too.\n- Only project and timeline names are shared. Your media and files are never read.",
+  "latestVersion": "0.2.0",
+  "releaseNotes": "- VideoVault now sees much more of your work in DaVinci Resolve Studio. Besides which project and timeline you have open, it now reports when you change the edit, add or remove markers, add colour nodes or switch colour versions, and when you move between the Media, Edit, Color, Fairlight and Deliver pages.\n- Importing media, playing back and scrubbing through the timeline are now counted, so time spent reviewing shows up as work.\n- Renders are reported from start to finish, with progress, and a render that fails or is cancelled is reported as such. Short renders that finish within a few seconds are no longer missed.\n- When you close a project, VideoVault also records how long you worked in it.\n- Only project and timeline names are shared. Your media and clip names are never read.",
   "mandatory": false,
   "platforms": {
     "win32": {
-      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/davinci-extension-v0.1.0/VideoVault_DaVinci_Windows_0.1.0.zip",
-      "checksumSha256": "103673665b7f039d906d2bc424f3701bd4e16e5a88b97271b643f46e97cf32cb",
+      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/davinci-extension-v0.2.0/VideoVault_DaVinci_Windows_0.2.0.zip",
+      "checksumSha256": "ac43eaa9a5d3a089c6af52dbe6617ef3e6f6c187045ca3efc5cb34a0e8b87551",
       "packageType": "zip",
-      "size": 188632,
-      "extensionFolderName": "videovault-davinci-extension"
+      "size": 191702,
+      "extensionFolderName": "com.aeos.videovault.resolve"
     },
     "darwin": {
       "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/davinci-extension-v0.1.0/VideoVault_DaVinci_mac_0.1.0.pkg",
