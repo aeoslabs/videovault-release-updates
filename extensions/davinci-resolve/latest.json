@@ -11,6 +11,12 @@
       "packageType": "zip",
       "size": 188632,
       "extensionFolderName": "videovault-davinci-extension"
+    },
+    "darwin": {
+      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/davinci-extension-v0.1.0/VideoVault_DaVinci_mac_0.1.0.pkg",
+      "checksumSha256": "3f19b06386f96d233c73aa7bdd1c70ee0103520f48c55feeb325a5a012504ba4",
+      "packageType": "pkg",
+      "size": 185309
     }
   }
 }
