@@ -1,0 +1,16 @@
+{
+  "id": "com.aeos.videovault.davinci",
+  "name": "VideoVault DaVinci Resolve Extension",
+  "latestVersion": "0.1.0",
+  "releaseNotes": "- Open the panel from Workspace > Workflow Integrations > VideoVault and leave it open while you work.\n- The panel shows whether the VideoVault Desktop App is running, which Resolve project is open, and whether your activity is being reported.\n- If the Desktop App is closed, your activity is saved on your computer and sent when it opens again.\n- Renders started from Resolve are reported too.\n- Only project and timeline names are shared. Your media and files are never read.",
+  "mandatory": false,
+  "platforms": {
+    "win32": {
+      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/davinci-extension-v0.1.0/VideoVault_DaVinci_Windows_0.1.0.zip",
+      "checksumSha256": "103673665b7f039d906d2bc424f3701bd4e16e5a88b97271b643f46e97cf32cb",
+      "packageType": "zip",
+      "size": 188632,
+      "extensionFolderName": "videovault-davinci-extension"
+    }
+  }
+}
