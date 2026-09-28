@@ -1,11 +1,11 @@
-version: 1.3.119
+version: 1.3.130
 files:
-  - url: https://github.com/aeoslabs/videovault-release-updates/releases/download/videovault-connect-schbang-v1.3.119/VideoVault-Connect-Schbang-1.3.119-arm64.zip
-    sha512: IOYK4ZMhIHvo3EiptHQijkMxVU/Do6Dsc+v/7F8TJMYEUTSp1jwPiGih/jBQg2lvmg9WcMVw7aKlEVt43EGtVg==
-    size: 157552408
-  - url: https://github.com/aeoslabs/videovault-release-updates/releases/download/videovault-connect-schbang-v1.3.119/VideoVault-Connect-Schbang-1.3.119-arm64.dmg
-    sha512: 9mnufjIotWzvXWGBT94DKs66KXKIl5XnTTSpE0MfcrTkmDuWskRPGhLcHdspxC5XOUfcBebYJaMqO98ESgm4CQ==
-    size: 163797816
-path: https://github.com/aeoslabs/videovault-release-updates/releases/download/videovault-connect-schbang-v1.3.119/VideoVault-Connect-Schbang-1.3.119-arm64.zip
-sha512: IOYK4ZMhIHvo3EiptHQijkMxVU/Do6Dsc+v/7F8TJMYEUTSp1jwPiGih/jBQg2lvmg9WcMVw7aKlEVt43EGtVg==
-releaseDate: '2026-09-24T22:06:43.782Z'
+  - url: https://github.com/aeoslabs/videovault-release-updates/releases/download/videovault-connect-schbang-v1.3.130/VideoVault-Connect-Schbang-1.3.130-arm64.zip
+    sha512: 27CrAdgCMI72lm7+F8Mb3ISHtCTm4VK619vXGNI16U+aqO2xua1nFoqbGYrbgWoLXDHWOLPk4E8xanW02PNDwQ==
+    size: 157567371
+  - url: https://github.com/aeoslabs/videovault-release-updates/releases/download/videovault-connect-schbang-v1.3.130/VideoVault-Connect-Schbang-1.3.130-arm64.dmg
+    sha512: MLLziKd5liWIhi1x8SvtrtVF4xlDl83lE5R1YtUXivvc48+vs5FB8fVj1mJfUWwDBU32nBwYq7QMbVpIKb00yw==
+    size: 163826537
+path: https://github.com/aeoslabs/videovault-release-updates/releases/download/videovault-connect-schbang-v1.3.130/VideoVault-Connect-Schbang-1.3.130-arm64.zip
+sha512: 27CrAdgCMI72lm7+F8Mb3ISHtCTm4VK619vXGNI16U+aqO2xua1nFoqbGYrbgWoLXDHWOLPk4E8xanW02PNDwQ==
+releaseDate: '2026-09-28T09:34:14.542Z'
