@@ -1,11 +1,11 @@
-version: 1.3.208
+version: 1.3.209
 files:
-  - url: https://github.com/aeoslabs/videovault-release-updates/releases/download/videovault-connect-beta-v1.3.208/VideoVault-Connect-Beta-1.3.208-arm64.zip
-    sha512: Jhg8kMeEXB9azBCwxq9p50Rbd6ywONOSONbYUcb9sVCqQxKjuR2NU1hEhy/HKVcgXLKP7AODEaEU9fqhai1gDg==
-    size: 156721172
-  - url: https://github.com/aeoslabs/videovault-release-updates/releases/download/videovault-connect-beta-v1.3.208/VideoVault-Connect-Beta-1.3.208-arm64.dmg
-    sha512: 3Czjd3Kmy2o8PE05sH1ziviUkbAO4tooh3B9xkYiBF4XYZcd25v612hvFP01NSEDkaX/shhPlpc1X8aFNmXVAA==
-    size: 163014704
-path: https://github.com/aeoslabs/videovault-release-updates/releases/download/videovault-connect-beta-v1.3.208/VideoVault-Connect-Beta-1.3.208-arm64.zip
-sha512: Jhg8kMeEXB9azBCwxq9p50Rbd6ywONOSONbYUcb9sVCqQxKjuR2NU1hEhy/HKVcgXLKP7AODEaEU9fqhai1gDg==
-releaseDate: '2026-10-08T22:42:37.274Z'
+  - url: https://github.com/aeoslabs/videovault-release-updates/releases/download/videovault-connect-beta-v1.3.209/VideoVault-Connect-Beta-1.3.209-arm64.zip
+    sha512: zBlfgUsmzqq0x/mYe3ilWiT2h5PAcofrhqmS9X+zBbbLtdr0GkHiTKUs9IDrykrgfGVaDHDY7/tVaf16FDjHBg==
+    size: 156721431
+  - url: https://github.com/aeoslabs/videovault-release-updates/releases/download/videovault-connect-beta-v1.3.209/VideoVault-Connect-Beta-1.3.209-arm64.dmg
+    sha512: X4tetKW6iuqyjI7tz8v/b7LsJrzmt63r3blCrmQ0E2Is+h72/ltrbDPnVe+TPM4Iw/buDGRE2bRbB04+yN6CSQ==
+    size: 163021483
+path: https://github.com/aeoslabs/videovault-release-updates/releases/download/videovault-connect-beta-v1.3.209/VideoVault-Connect-Beta-1.3.209-arm64.zip
+sha512: zBlfgUsmzqq0x/mYe3ilWiT2h5PAcofrhqmS9X+zBbbLtdr0GkHiTKUs9IDrykrgfGVaDHDY7/tVaf16FDjHBg==
+releaseDate: '2026-10-08T22:44:57.698Z'
