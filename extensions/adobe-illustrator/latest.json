@@ -1,15 +1,15 @@
 {
   "id": "com.aeos.videovault.illustrator",
   "name": "VideoVault Illustrator Extension",
-  "latestVersion": "1.5.0",
-  "releaseNotes": "- Activity telemetry no longer needs the VideoVault panel to be open. It now starts the moment Illustrator launches, the same way the Premiere Pro extension already works, so your work keeps showing up in VideoVault even if you never open the panel.\n- If you do keep the panel open, you may occasionally see one extra activity entry for the same moment of work. This does not affect anything you do in Illustrator.",
+  "latestVersion": "1.6.0",
+  "releaseNotes": "- Your activity now reaches VideoVault even when the Connect desktop app is closed. The extension can send it straight to your VideoVault Server on its own. Connect still reports your activity too when it's open, so you may occasionally see one extra entry for the same moment of work; that doesn't affect anything you do in Illustrator.",
   "mandatory": false,
   "platforms": {
     "win32": {
-      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/illustrator-extension-v1.5.0/VideoVault_Illustrator_Windows_1.5.0.zip",
-      "checksumSha256": "60efb6925616be64f227009409e19dd9b4ade057c1ecbc2b6de2820bfbc9d40d",
+      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/illustrator-extension-v1.6.0/VideoVault_Illustrator_Windows_1.6.0.zip",
+      "checksumSha256": "43348f4c3f49d4b592d2874ee8c594cf51a45b062efcd42ff14f4d532cc88b7b",
       "packageType": "zip",
-      "size": 197158,
+      "size": 200022,
       "extensionFolderName": "videovault-illustrator-extension"
     },
     "darwin": {
