@@ -13,10 +13,10 @@
       "extensionFolderName": "videovault-aftereffects-extension"
     },
     "darwin": {
-      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/aftereffects-extension-v1.5.0/VideoVault_AfterEffects_mac_1.5.0.pkg",
-      "checksumSha256": "d4fd1dbcb83232c706c06409acbe9055aa8fd3d55174290583b2c43c45e7afec",
+      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/aftereffects-extension-v1.6.0/VideoVault_AfterEffects_mac_1.6.0.pkg",
+      "checksumSha256": "6f0c43a35e41326150c295acc723d7032a42962a4a1387bdb68f1010c2931371",
       "packageType": "pkg",
-      "size": 194460
+      "size": 198562
     }
   }
 }
