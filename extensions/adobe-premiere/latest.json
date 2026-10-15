@@ -1,8 +1,8 @@
 {
   "id": "com.aeos.videovault.premiere",
   "name": "VideoVault Premiere Extension",
-  "latestVersion": "1.19.1",
-  "releaseNotes": "- September 17, 2026\n- Browse, Share, and Generate Proxy respond faster — they no longer wait on VideoVault Connect first before trying your saved sign-in directly",
+  "latestVersion": "1.19.3",
+  "releaseNotes": "- October 15, 2026\n- Your activity now reaches VideoVault even when the Connect desktop app is closed. The extension can send it straight to your VideoVault Server on its own. Connect still reports your activity too when it's open, so you may occasionally see one extra entry for the same moment of work; that doesn't affect anything you do in Premiere.",
   "mandatory": false,
   "platforms": {
     "darwin": {
@@ -12,10 +12,10 @@
       "size": 820293
     },
     "win32": {
-      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.19.1/VideoVault_Premiere_Pro_Windows_1.19.1.zip",
-      "checksumSha256": "3410353285478b3b6d02682f6731bb6626b58405599d1df94c170088a203cf35",
+      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.19.3/VideoVault_Premiere_Pro_Windows_1.19.3.zip",
+      "checksumSha256": "433f5d7fbc93c4d5f23da67a56e18a2ade8d2c1cfc38215fdf344b472af16a67",
       "packageType": "zip",
-      "size": 823162,
+      "size": 828155,
       "extensionFolderName": "videovault-premiere-extension"
     }
   }
