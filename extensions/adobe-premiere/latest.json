@@ -1,15 +1,15 @@
 {
   "id": "com.aeos.videovault.premiere",
   "name": "VideoVault Premiere Extension",
-  "latestVersion": "1.19.3",
-  "releaseNotes": "- October 15, 2026\n- Your activity now reaches VideoVault even when the Connect desktop app is closed. The extension can send it straight to your VideoVault Server on its own. Connect still reports your activity too when it's open, so you may occasionally see one extra entry for the same moment of work; that doesn't affect anything you do in Premiere.",
+  "latestVersion": "1.20.2",
+  "releaseNotes": "- October 17, 2026\n- A VideoVault panel opened after its clips were linked to the VideoVault drive now shows what was linked (for half an hour), instead of \"Ready for project actions.\"\n- Tip for editors on the drive: if Premiere shows \"Link Media\" when a project opens, click Cancel. VideoVault links the clips to the drive by itself.",
   "mandatory": false,
   "platforms": {
     "darwin": {
-      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.19.3/VideoVault_Premier_Pro_mac_1.19.3.pkg",
-      "checksumSha256": "fb1bb6869714b084bbf409b300fff8dcf96345f2923afd21f6c8071b6347043b",
+      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.20.2/VideoVault_Premier_Pro_mac_1.20.2.pkg",
+      "checksumSha256": "48522a7907950fc17a7a64b967ddac58fc99abed468683606eebc4900b872523",
       "packageType": "pkg",
-      "size": 828400
+      "size": 832350
     },
     "win32": {
       "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.19.3/VideoVault_Premiere_Pro_Windows_1.19.3.zip",
