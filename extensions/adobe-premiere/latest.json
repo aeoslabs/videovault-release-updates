@@ -1,15 +1,15 @@
 {
   "id": "com.aeos.videovault.premiere",
   "name": "VideoVault Premiere Extension",
-  "latestVersion": "1.20.2",
-  "releaseNotes": "- October 17, 2026\n- A VideoVault panel opened after its clips were linked to the VideoVault drive now shows what was linked (for half an hour), instead of \"Ready for project actions.\"\n- Tip for editors on the drive: if Premiere shows \"Link Media\" when a project opens, click Cancel. VideoVault links the clips to the drive by itself.",
+  "latestVersion": "1.20.3",
+  "releaseNotes": "- October 20, 2026\n- The macOS panel is now signed with VideoVault's Adobe signature, so Premiere loads it without \"debug mode\". The installer no longer turns debug mode on.\n- Nothing else changes for editors: the panel looks and works the same.",
   "mandatory": false,
   "platforms": {
     "darwin": {
-      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.20.2/VideoVault_Premier_Pro_mac_1.20.2.pkg",
-      "checksumSha256": "48522a7907950fc17a7a64b967ddac58fc99abed468683606eebc4900b872523",
+      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.20.3/VideoVault_Premier_Pro_mac_1.20.3.pkg",
+      "checksumSha256": "aa4f84a188fa4ab39d1d8b1520f990a67eb1cce28f0747bcebf698a93b8e65e1",
       "packageType": "pkg",
-      "size": 832350
+      "size": 843566
     },
     "win32": {
       "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/premiere-extension-v1.20.2/VideoVault_Premiere_Pro_Windows_1.20.2.zip",
