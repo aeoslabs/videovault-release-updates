@@ -1,8 +1,8 @@
-version: 1.3.264
+version: 1.3.265
 files:
-  - url: https://github.com/aeoslabs/videovault-release-updates/releases/download/videovault-connect-yaas-v1.3.264/VideoVault-Connect-YAAS-Setup-1.3.264.exe
-    sha512: BD3fBgMNPy27yJYB6WXlyc6NCAIU1ilvuV2eocmAP6Co/tsio/iHIFaSgpPpLGFb4dgpX7ZNhCYsX9ZKT19BqQ==
-    size: 129302492
-path: https://github.com/aeoslabs/videovault-release-updates/releases/download/videovault-connect-yaas-v1.3.264/VideoVault-Connect-YAAS-Setup-1.3.264.exe
-sha512: BD3fBgMNPy27yJYB6WXlyc6NCAIU1ilvuV2eocmAP6Co/tsio/iHIFaSgpPpLGFb4dgpX7ZNhCYsX9ZKT19BqQ==
-releaseDate: '2026-10-23T10:51:46.075Z'
+  - url: https://github.com/aeoslabs/videovault-release-updates/releases/download/videovault-connect-yaas-v1.3.265/VideoVault-Connect-YAAS-Setup-1.3.265.exe
+    sha512: 2GNOy06YqVpbbcq5Q489h9CwSkkEBQ9oCFJIJVSH6HYQ/6jHkeQoOBR1Ed+JKd/iUvo7D4GMk5f9/MP5ObfuAw==
+    size: 129297979
+path: https://github.com/aeoslabs/videovault-release-updates/releases/download/videovault-connect-yaas-v1.3.265/VideoVault-Connect-YAAS-Setup-1.3.265.exe
+sha512: 2GNOy06YqVpbbcq5Q489h9CwSkkEBQ9oCFJIJVSH6HYQ/6jHkeQoOBR1Ed+JKd/iUvo7D4GMk5f9/MP5ObfuAw==
+releaseDate: '2026-10-26T12:50:49.194Z'
