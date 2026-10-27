@@ -13,10 +13,10 @@
       "extensionFolderName": "videovault-proxy-handoff-premiere"
     },
     "darwin": {
-      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/proxy-handoff-premiere-v1.0.0/VideoVault_ProxyHandoff_Premiere_mac_1.0.0.pkg",
-      "checksumSha256": "58f2a099c6ed7210dfa86b43acfb7f1a2f6ec5f7b4fccdac5ac5557a02e0521b",
+      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/proxy-handoff-premiere-v1.0.1/VideoVault_ProxyHandoff_Premiere_mac_1.0.1.pkg",
+      "checksumSha256": "9e45a419f1be0001861d95c4790953ed9ddcddc92503162645602ed4f88686f2",
       "packageType": "pkg",
-      "size": 184250
+      "size": 184231
     }
   }
 }
