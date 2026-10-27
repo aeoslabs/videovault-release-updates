@@ -1,0 +1,16 @@
+{
+  "id": "com.aeos.videovault.proxyhandoff.premiere",
+  "name": "Proxy Handoff for Premiere Pro",
+  "latestVersion": "1.0.0",
+  "releaseNotes": "- October 27, 2026\n- New: edit remotely on proxies only, then hand the project back on the server's raw footage.\n- Pull proxies with \"Pull proxies only\" in VideoVault Connect and cut on them as if they were the footage.\n- When you're done, open Window > Extensions > Proxy Handoff, press Check project, then Hand back to server.\n- Every proxy clip is pointed at its raw file on the VideoVault Server in a copy of your project named with _SERVER. Your own project stays as it is.\n- Clips whose raw file can't be found on the server are listed by name and left on their proxy.\n- Clip sizes are not changed. Clips you scaled to fill the frame on a smaller proxy may need their size fixed once they open on the raw footage.",
+  "mandatory": false,
+  "platforms": {
+    "win32": {
+      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/proxy-handoff-premiere-v1.0.0/VideoVault_ProxyHandoff_Premiere_Windows_1.0.0.zip",
+      "checksumSha256": "370c138c02ec9452360949aa3e4c1ab0e0104ef652b6a8534d2f1a17afa216f4",
+      "packageType": "zip",
+      "size": 182946,
+      "extensionFolderName": "videovault-proxy-handoff-premiere"
+    }
+  }
+}
