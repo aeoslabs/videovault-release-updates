@@ -13,10 +13,10 @@
       "extensionFolderName": "videovault-proxy-handoff-aftereffects"
     },
     "darwin": {
-      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/proxy-handoff-aftereffects-v1.0.0/VideoVault_ProxyHandoff_AfterEffects_mac_1.0.0.pkg",
-      "checksumSha256": "f499a31a699f0413112df4e209e6abcc4e8b77c89e4fa1dba0629ae7d48f00ee",
+      "downloadUrl": "https://github.com/aeoslabs/videovault-release-updates/releases/download/proxy-handoff-aftereffects-v1.0.1/VideoVault_ProxyHandoff_AfterEffects_mac_1.0.1.pkg",
+      "checksumSha256": "b8877d1966aa0d0b4c479c96472c50c225131a1ddc01e80b0fbbbb5491ac6b12",
       "packageType": "pkg",
-      "size": 184414
+      "size": 184400
     }
   }
 }
