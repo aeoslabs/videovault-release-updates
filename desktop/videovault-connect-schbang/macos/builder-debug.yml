@@ -5,6 +5,14 @@ arm64:
     - '!dist{,/**/*}'
     - out/**/*
     - resources/**/*
+    - '!resources/rclone-*'
+    - '!resources/zstd-*'
+    - '!resources/smartctl-*'
+    - '!resources/foreground-helper-mac/**'
+    - '!resources/install-smart-helper-task.ps1'
+    - '!resources/*.md'
+    - '!node_modules/better-sqlite3/deps/**'
+    - '!node_modules/better-sqlite3/src/**'
     - package.json
     - '!**/*.{iml,hprof,orig,pyc,pyo,rbc,swp,csproj,sln,suo,xproj,cc,d.ts,mk,a,o,forge-meta,pdb}'
     - '!**/._*'
@@ -17,3 +25,11 @@ arm64:
     - '**/*'
     - out/**/*
     - resources/**/*
+    - '!resources/rclone-*'
+    - '!resources/zstd-*'
+    - '!resources/smartctl-*'
+    - '!resources/foreground-helper-mac/**'
+    - '!resources/install-smart-helper-task.ps1'
+    - '!resources/*.md'
+    - '!node_modules/better-sqlite3/deps/**'
+    - '!node_modules/better-sqlite3/src/**'
