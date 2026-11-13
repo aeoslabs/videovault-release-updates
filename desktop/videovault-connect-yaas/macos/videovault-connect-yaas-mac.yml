@@ -1,11 +1,11 @@
-version: 1.3.292
+version: 1.3.293
 files:
-  - url: https://github.com/aeoslabs/videovault-release-updates/releases/download/videovault-connect-yaas-v1.3.292/VideoVault-Connect-YAAS-1.3.292-arm64.zip
-    sha512: NTHOHOixmuLU4OwPnNDwz8d4TdWv1X2IpSRp8Qqne34E/hBimU+dqDbZkI64JGhtPE4lAGGkG/S8f7LrRx63lA==
-    size: 163923531
-  - url: https://github.com/aeoslabs/videovault-release-updates/releases/download/videovault-connect-yaas-v1.3.292/VideoVault-Connect-YAAS-1.3.292-arm64.dmg
-    sha512: U4F8MQIyd+GIVfWWcqBPLwncS4ubLcxCEmAuWpVaQEX0Dq5X0Aa+zkddZU8lP913fyJdygfz8QudN5BSmc0Clg==
-    size: 169964951
-path: https://github.com/aeoslabs/videovault-release-updates/releases/download/videovault-connect-yaas-v1.3.292/VideoVault-Connect-YAAS-1.3.292-arm64.zip
-sha512: NTHOHOixmuLU4OwPnNDwz8d4TdWv1X2IpSRp8Qqne34E/hBimU+dqDbZkI64JGhtPE4lAGGkG/S8f7LrRx63lA==
-releaseDate: '2026-11-13T11:47:31.980Z'
+  - url: https://github.com/aeoslabs/videovault-release-updates/releases/download/videovault-connect-yaas-v1.3.293/VideoVault-Connect-YAAS-1.3.293-arm64.zip
+    sha512: Gds8vL9qysnlDdhRpXvbz+8vaf5871Qrq5c70M690zTxBSUejRIJW95aDSPx8pGjQfpSgGsc9KUzdrRG7rwUsg==
+    size: 163932564
+  - url: https://github.com/aeoslabs/videovault-release-updates/releases/download/videovault-connect-yaas-v1.3.293/VideoVault-Connect-YAAS-1.3.293-arm64.dmg
+    sha512: PJxyB5gtllY4i8FGmiYVExUjYe7s7OAnYOxFzKaKInhGiBbsQ+wzRti4LU2kIjviUg9PVGPNl4WN/tI8xlvhhg==
+    size: 169989575
+path: https://github.com/aeoslabs/videovault-release-updates/releases/download/videovault-connect-yaas-v1.3.293/VideoVault-Connect-YAAS-1.3.293-arm64.zip
+sha512: Gds8vL9qysnlDdhRpXvbz+8vaf5871Qrq5c70M690zTxBSUejRIJW95aDSPx8pGjQfpSgGsc9KUzdrRG7rwUsg==
+releaseDate: '2026-11-13T18:28:20.933Z'
