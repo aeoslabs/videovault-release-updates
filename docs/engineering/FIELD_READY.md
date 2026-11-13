@@ -54,7 +54,8 @@ A small fix touches one thing and adds no new outside piece or boundary. It skip
 |---|---|---|
 | Verbose drive and updater logs in the dev build | Connect main and client/yaas | To build |
 | Drive helper under `--inspect=9230` in the dev build | Connect | To build |
-| Limits read from Central config instead of constants | Connect, server | Per feature, as each is touched |
+| Number settings per server in Central (limits: timeouts, sizes, reserves) | Central, Connect, server | To build |
+| One Central switch per new feature for its detailed telemetry | Central, Connect, server | To build |
 | Inspector port on RnD dev containers | video-vault dev env | To set up |
 
 ## VV's decisions (13 Nov 2026)
@@ -66,6 +67,12 @@ A small fix touches one thing and adds no new outside piece or boundary. It skip
 - Debug mode is for us in development only. Nothing debug-related ships in a customer build: no switch, no Central flag, no "Send logs".
 - Detailed logs and failure telemetry are fine while a feature is new (like the streaming drive). Once it is stable, only feature-usage telemetry stays.
 - Small fixes skip the notes, but must be reliable.
+- VV turns a feature's detailed telemetry off with its Central switch once it is stable (about 2 weeks with no new failure events).
+- Limits live in Central, per server, so changing one is not a release.
+- A failed assertion in a customer build is a silent report to Central; the editor sees nothing.
+- Releases happen when VV asks, batched.
+- These skills are copied to every repo.
+- Pushes that change only docs never start a release workflow.
 
 ## Where this lives
 

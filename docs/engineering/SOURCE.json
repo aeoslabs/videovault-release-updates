@@ -1,10 +1,10 @@
 {
   "from": "aeoslabs/videovault-hq/engineering",
-  "commit": "fb264e5",
+  "commit": "684baac",
   "note": "Do not edit these copies. Change videovault-hq and run engineering/tools/sync.mjs.",
   "files": {
     "docs/engineering/FIELD_CONDITIONS.md": "1488572f124fcd93606c452007c6aceccb9c6e2531cccae650c80dbfdf3f7907",
-    "docs/engineering/FIELD_READY.md": "ef97b28ae86931e364e252847bc58f8056cdd497a6c56e6a6e2a9915c0d80b9a",
+    "docs/engineering/FIELD_READY.md": "deb59e76d86d73549a7a950ee3d46276c6b001f155d42511be2d8d4a582841e2",
     "docs/engineering/PR_NOTES.md": "2053ca23a2c255eafe9338a3799fe5565131b011ebb4c2f3a74e1d14dafb1fc2",
     "docs/engineering/README.md": "778ccb2d14ecacf8e76a5bff4e55576c7ccf248ea24057c2ccc5d4603971aa70",
     "docs/engineering/tools/field-check.mjs": "558d2ed773095a394904e864c41bc3d3853abfca49c88c3f24913b744e821a01",
