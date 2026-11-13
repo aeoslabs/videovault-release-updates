@@ -74,6 +74,10 @@ export function checkNotes(body, files, knownIds) {
   for (const id of new Set(strip(block).match(/FC-[A-Z]+-\d+/g) || [])) {
     if (knownIds.size && !knownIds.has(id)) warnings.push(`Engineering notes: ${id} is not in FIELD_CONDITIONS.md. Add the row in this PR, or fix the ID.`);
   }
+  // Section 3: the premortem is required for risky boundaries. Warn when it is not mentioned.
+  if (!small && sections["3"] && !/premortem/i.test(strip(sections["3"].raw))) {
+    warnings.push('Engineering notes, section 3: no premortem. Required when the change touches a network call, retry, timeout, quit, disk or another process. Run it in a fresh agent and list each Tiger as fixed or disproved, or write "Premortem: n/a: why".');
+  }
   if (small) notes.push("Marked as a small fix: checked sections 2 and 6 only.");
   return { warnings, notes };
 }

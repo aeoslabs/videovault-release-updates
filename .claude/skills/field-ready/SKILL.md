@@ -34,7 +34,7 @@ reserve = 191 GB              | reserve > free: evicts ALL    | -
 copy(file)                    | -                             | half-written file left
 ```
 
-For each boundary (a call across the network, to another process, or to the disk) write what happens when it hangs, returns half, errors, and when our process dies on that line. Each odd cell is a bug found before it was written. As you go, write the invariants: statements that must always hold (`reserve < free`, "nothing reads the cache folder", "every path goes through toServerName()"). Then run the `premortem` skill on the plan.
+For each boundary (a call across the network, to another process, or to the disk) write what happens when it hangs, returns half, errors, and when our process dies on that line. Each odd cell is a bug found before it was written. As you go, write the invariants: statements that must always hold (`reserve < free`, "nothing reads the cache folder", "every path goes through toServerName()"). Then the premortem. It is **required** when the change touches a network call, a retry or timeout, quit or restart, the disk, or another process; skip it only for a small fix. Start a fresh agent (the `verifier` or a general one), give it the trace table, the invariants and the plan (no code yet), and tell it to run the `premortem` skill in quick mode against `FIELD_CONDITIONS.md`. Do not run it in your own context: it must not share your assumptions. Each Tiger it returns is fixed in the plan or disproved with the line or doc that proves it, and goes in the PR notes, section 3, under "Premortem". This step is not optional because no skill loads by itself: if you skip it, nothing else will catch it.
 
 Every number in a boundary (timeout, size, reserve) is a product choice for step 4, unless the source dictates it.
 
@@ -69,9 +69,15 @@ Run the dev build under the debugger on the real path once (how, per part: the t
 
 `node docs/engineering/tools/breakpoints.mjs plan.json --port 9229`. "NEVER HIT" means the path you think runs does not: that is a finding. If what you see differs from step 2 or 3, go back there; do not patch around it.
 
+Then run the `blind-review` skill on the PR if a release will carry it.
+
 ## 7. Lock it in, release once
 
-Tests only for what steps 3 and 6 taught you (each picked row the code handles), small and fast. Before saying it is done, `verification-before-completion`: fresh test output and the debugger run, never "should work". Batch fixes into one release. If this fixes a release from the last 24 hours, write which step missed it and add the `FIELD_CONDITIONS.md` row.
+Tests only for what steps 3 and 6 taught you (each picked row the code handles), small and fast. Three kinds, VV 13 Nov:
+
+- **From real usage.** Take the real event sequences Central already holds for the feature (drive, transfer, SMB events per editor) and replay them as test cases. Every feature gets these; invented scenarios come second.
+- **Generated odd inputs.** For a pure function that takes names, paths, sizes or times, a `fast-check` property (round trip, never throws, keeps the name) with at least 1000 runs. Pin each counterexample it finds as an example test.
+- **Fault switches.** Where a boundary is hard to break by hand, a dev-only `VV_FAULT` switch (hang, error, half reply) that the test or the debugger run turns on. Never active in a packaged build. Before saying it is done, `verification-before-completion`: fresh test output and the debugger run, never "should work". Batch fixes into one release. If this fixes a release from the last 24 hours, write which step missed it and add the `FIELD_CONDITIONS.md` row.
 
 ## Field issues
 

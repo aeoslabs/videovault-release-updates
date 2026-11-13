@@ -22,6 +22,11 @@
 | Boundary | Hangs | Returns half | Error | Process dies here |
 |---|---|---|---|---|
 
+Premortem (required for network, retry, timeout, quit, disk or process changes; "n/a: why" otherwise):
+
+| Tiger | Fixed or disproved, with proof |
+|---|---|
+
 ### 4. Questions VV answered
 
 <!-- The product choices you would otherwise have guessed, with VV's answers or a link. "None: no product choice" is fine. -->
