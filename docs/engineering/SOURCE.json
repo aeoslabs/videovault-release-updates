@@ -1,0 +1,27 @@
+{
+  "from": "aeoslabs/videovault-hq/engineering",
+  "commit": "684baac",
+  "note": "Do not edit these copies. Change videovault-hq and run engineering/tools/sync.mjs.",
+  "files": {
+    "docs/engineering/FIELD_CONDITIONS.md": "1488572f124fcd93606c452007c6aceccb9c6e2531cccae650c80dbfdf3f7907",
+    "docs/engineering/FIELD_READY.md": "deb59e76d86d73549a7a950ee3d46276c6b001f155d42511be2d8d4a582841e2",
+    "docs/engineering/PR_NOTES.md": "2053ca23a2c255eafe9338a3799fe5565131b011ebb4c2f3a74e1d14dafb1fc2",
+    "docs/engineering/README.md": "778ccb2d14ecacf8e76a5bff4e55576c7ccf248ea24057c2ccc5d4603971aa70",
+    "docs/engineering/tools/field-check.mjs": "558d2ed773095a394904e864c41bc3d3853abfca49c88c3f24913b744e821a01",
+    "docs/engineering/tools/breakpoints.mjs": "df6b152bbff9c1affd6840f925008638f974a35bf35ad35a582ceb5fc6121836",
+    ".claude/skills/brainstorming/LICENSE": "a37e0e9697144819e1d965176ac4ae5bc3fa02d11e7812036bbcadf6dafe2400",
+    ".claude/skills/brainstorming/SKILL.md": "4d530ba8667c9cc0a1061c04f41fffa5bb4d69bef8d3ea247c99ae5720986aef",
+    ".claude/skills/brainstorming/builder-check-prompt.md": "36d51a4723d6f0a3ce5811a0ea3b3a8424f07533947e1355f5d8cb8cce40c55e",
+    ".claude/skills/field-ready/SKILL.md": "3a4bfd01d31919cfb57f72b4aea7b10a0bd3ab76e50f4b914c7fec42a88d7fff",
+    ".claude/skills/premortem/LICENSE": "c12da7375d8d27b0fa67246247696b1d4a9a7f4932f2318c22abfe96ca599bb8",
+    ".claude/skills/premortem/SKILL.md": "29d7c2f5c3b7eb08ba06c340acbaaf939443626f49520ee26c87ccf540ebe54a",
+    ".claude/skills/systematic-debugging/LICENSE": "a37e0e9697144819e1d965176ac4ae5bc3fa02d11e7812036bbcadf6dafe2400",
+    ".claude/skills/systematic-debugging/SKILL.md": "ef525645bee0af1b87d83182bec71a7f612878ec7d5638648fdf14b6d12a9aaf",
+    ".claude/skills/systematic-debugging/condition-based-waiting.md": "e89fec8400d6cd50f43407cec9fab50976ba4d55d0ec2eb51c0bd68036b54c26",
+    ".claude/skills/systematic-debugging/defense-in-depth.md": "1e175fb86fc357e58c6aebf5441e481e1b7868b4380c0456b63a17eefbd18ba7",
+    ".claude/skills/systematic-debugging/find-polluter.sh": "dd7b8f13c4cc2a24b33ff87b18da9248f3e1c80a085c3316224f69ff0fa5c43c",
+    ".claude/skills/systematic-debugging/root-cause-tracing.md": "75b933b6a8c40bdb2031b10f21654395b56ec6ab6bc7b018c18d3fe57aeb7fb8",
+    ".claude/skills/verification-before-completion/LICENSE": "a37e0e9697144819e1d965176ac4ae5bc3fa02d11e7812036bbcadf6dafe2400",
+    ".claude/skills/verification-before-completion/SKILL.md": "310a9d0670a3e7eb1c2e677f1e53c1102d8a58f76537cf35a1d778f9d6d24767"
+  }
+}
